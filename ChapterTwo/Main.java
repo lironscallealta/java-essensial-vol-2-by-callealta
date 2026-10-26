@@ -29,10 +29,10 @@ public class Main {
         4. c
         5. d
         6. d
-        7. c
+        7. b
         8. a
         9. c
-        10-d
+        10.d
 
         */
 
