@@ -1,4 +1,4 @@
-package ChapterThree.CodingTaskDoing.CodingTaskOne;
+package ChapterThree.CodingTask.Assignment.CodingTaskOne;
 
 /*
 Given the partial code for the class Student that contains 3 attributes: name, studentNumber, and course.
@@ -17,58 +17,21 @@ public class Student {
     public Student() {
     }
 
-    /*
-     * public Student(int sN, String c) {
-     * studentNumber = sN;
-     * course = c;
-     * }
-     */
-
     // this is constructor #2 -
     // you have to provide the body of this constructor
     public Student(String name, int studentNumber,
             String course) {
         // complete the body of this constructor
-        this.name = name;
-        this.studentNumber = studentNumber;
-        this.course = course;
     }
 
     // put your setters here
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setStudentNumber(int studentNumber) {
-        this.studentNumber = studentNumber;
-
-    }
-
-    public void setCourse(String course) {
-        this.course = course;
-    }
-
     // put your getters here
-
-    public String getName() {
-        return name;
-    }
-
-    public int getStudentNumber(){
-        return studentNumber;
-    }
-
-    public String getCourse() {
-        return course;
-    }
 
     public void showStudentInformation() {
 
         // this method should display the name,
         // studentNumber and the course of the student
         // object.
-
-        System.out.println("Name: " + this.name + " StudentNumber: "  + this.studentNumber + " course " + this.course + " Object : " + this );
     }
 }

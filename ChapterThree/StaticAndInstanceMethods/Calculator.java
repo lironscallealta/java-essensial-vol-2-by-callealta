@@ -1,4 +1,4 @@
-package ChapterThree;
+package ChapterThree.StaticAndInstanceMethods;
 
 public class Calculator {
 
