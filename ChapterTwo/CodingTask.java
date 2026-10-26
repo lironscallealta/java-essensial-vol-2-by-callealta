@@ -43,7 +43,6 @@ public class CodingTask {
         System.out.println("updating age");
         p1.updateAge(p1, 30);
         p1.displayInfo();
-        
 
         // PersonFour newPersonOlder = new PersonFour(p1); this line is not necessary
         System.out.println();
