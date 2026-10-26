@@ -1,6 +1,7 @@
-package ChapterTwo;
+package ChapterTwo.ReferencesAndPassByValue;
 
-public class Main {
+/** Referencias: asignar una referencia, compartir un objeto y crear otro objeto. */
+public class ReferenceAssignmentExample {
 
     // The Referencie Data Types
     public static void main(String[] args) {

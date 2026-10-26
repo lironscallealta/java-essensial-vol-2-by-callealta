@@ -1,4 +1,5 @@
-package ChapterTwo;
+package ChapterTwo.Constructors;
+/** Clase de apoyo: constructor de copia y creación de otra persona con addAge(). */
 public class PersonTwo {
 
     private String name = "noname";

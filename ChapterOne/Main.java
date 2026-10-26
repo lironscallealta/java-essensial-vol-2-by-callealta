@@ -2,6 +2,9 @@ package ChapterOne;
 import java.util.Scanner;
 
 
+/** Ejemplo general del capítulo 1: consola, tipos, arreglos y primeros objetos.
+ * Ejecuta main y responde las preguntas de nombre y edad. Usa Student.java.
+ */
 public class Main {
 
     //Chapter 1
@@ -53,12 +56,12 @@ public class Main {
         int[] studentAges = { 17, 16, 18 };
         double[] studentGrades = { 89.5, 92.0, 85.75 };
 
-        //continue in next chapter Student.jave
+        // Clases y objetos: usa Student.java de este mismo capítulo.
 
         Student student = new Student("name", 15, 4.4);
         student.printDetails();   
         
-        //without Constructor
+        // Constructor sin argumentos y asignación de atributos.
         Student student1 = new Student();
         student1.name = "Richar";
         student1.age = 15;

@@ -1,5 +1,6 @@
-package ChapterTwo;
+package ChapterTwo.CodingTask.Doing.CodingTaskOne;
 
+/** Ejercicio en curso: consulta el enunciado en Assignment/CodingTaskOne desde la carpeta CodingTask. */
 public class CodingTask {
     /*
      * Objective:

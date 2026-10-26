@@ -1,4 +1,5 @@
-package ChapterTwo;
+package ChapterTwo.VariablesAndScope;
+/** Variables locales: declarar y usar variables dentro de un método. */
 public class LocalVariableExample {
 
     public void displaySum() {

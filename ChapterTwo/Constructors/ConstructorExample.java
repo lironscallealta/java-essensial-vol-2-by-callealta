@@ -1,4 +1,5 @@
-package ChapterTwo;
+package ChapterTwo.Constructors;
+/** Constructores: reutilización con this(...) y validación de argumentos. */
 public class ConstructorExample {
 
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
-package ChapterTwo;
+package ChapterTwo.VariablesAndScope;
 
+/** Inferencia de tipos con var: ejemplos de variables locales y bucles. */
 public class VarExample {
 
     public static void main(String[] args) {

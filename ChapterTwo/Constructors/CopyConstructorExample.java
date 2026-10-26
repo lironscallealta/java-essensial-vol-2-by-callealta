@@ -1,5 +1,6 @@
-package ChapterTwo;
-public class TestPersonTwo {
+package ChapterTwo.Constructors;
+/** Constructor de copia: usar PersonTwo.addAge() para crear otro objeto. */
+public class CopyConstructorExample {
 
     public static void main(String[] args) {
         PersonTwo p1 = new PersonTwo("Lawrence", 20);

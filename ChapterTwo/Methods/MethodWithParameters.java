@@ -1,5 +1,6 @@
-package ChapterTwo;
+package ChapterTwo.Methods;
 
+/** Parámetros y argumentos: llamar a un método con distintos nombres. */
 public class MethodWithParameters {
 
     // 'name' is a parameter and a local variable

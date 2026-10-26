@@ -1,5 +1,6 @@
-package ChapterTwo;
+package ChapterTwo.ReferencesAndPassByValue;
 
+/** Clase de apoyo utilizada por ReferenceAssignmentExample y PassByValueExample. */
 public class Person {
     public String name = "~noname";
     public int age = 0;
