@@ -11,4 +11,4 @@ Ejecuta `Main.java`. El programa pide un nombre y una edad por consola.
 - **Main.java**: impresión por consola, condiciones con `if`, entrada con `Scanner`, tipos primitivos, operaciones con `String`, arreglos y creación de objetos `Student`.
 - **Student.java**: clase con atributos, un constructor con argumentos, un constructor sin argumentos y el método `printDetails()`.
 
-Dentro de `Main`, los comentarios marcan el cambio de tema. Las respuestas personales del libro (página 51) están al final del método `main`, dentro de un comentario.
+Dentro de `Main`, los comentarios marcan el cambio de tema. Las respuestas personales del libro (página 51) están en `Answering.java`, dentro de un comentario.

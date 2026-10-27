@@ -22,22 +22,6 @@ public class ReferenceAssignmentExample {
         System.out.println(p5 + " p5 -  now are different hash - p6 " + p6);
         System.out.println(p5.printDetails());
         System.out.println(p6.printDetails());
-        // Book answer page 102 for me
-        /*
-        1. a
-        2. a
-        3. b
-        4. c
-        5. d
-        6. d
-        7. b
-        8. a
-        9. c
-        10.d
-
-        */
-
-
 
     }
 

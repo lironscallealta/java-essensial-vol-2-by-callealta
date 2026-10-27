@@ -26,7 +26,7 @@ Ejecuta `MethodWithParameters.java`: el método `greet` recibe un parámetro y s
 - Ejecuta **PassByValueExample.java** (antes `PassTest.java`): compara cambiar un número, reasignar una referencia dentro de un método y modificar un atributo del objeto referenciado. Java pasa los argumentos por valor, también cuando ese valor es una referencia.
 - **Person.java** es la clase de apoyo compartida por los dos ejemplos.
 
-Las respuestas personales del libro (página 102) siguen al final de `ReferenceAssignmentExample.java`, dentro de un comentario.
+Las respuestas personales del libro (página 102) están en `Answering.java`, dentro de un comentario.
 
 ## constructors
 
