@@ -1,7 +1,5 @@
 package chapterfour.constructoroverloading;
 
-import chapterfour.constructoroverloading.OverloadingConstructorExample.Employee;
-
 // Manager.java
 
 public class Manager extends Employee {
