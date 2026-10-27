@@ -1,6 +1,6 @@
-package chapterfour.overloadingconstructor;
+package chapterfour.constructoroverloading;
 
-import chapterfour.overloadingconstructor.OverloadingConstructorExample.Employee;
+import chapterfour.constructoroverloading.OverloadingConstructorExample.Employee;
 
 // Manager.java
 

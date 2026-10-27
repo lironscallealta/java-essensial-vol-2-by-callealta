@@ -1,4 +1,4 @@
-package chapterfour.inheritanceandconstructor;
+package chapterfour.constructorchaining;
 
 class A {
 
