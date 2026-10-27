@@ -1,8 +1,6 @@
-package chapterfour;
+package chapterfour.withoutinheritance;
 
 import java.util.Date;
-
-import chapterfour.EmployeeWithoutInheritance;
 
 public class MainWithOutInheritance {
 

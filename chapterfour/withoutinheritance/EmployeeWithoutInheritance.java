@@ -1,4 +1,4 @@
-package chapterfour;
+package chapterfour.withoutinheritance;
 
 import java.util.Date;
 
