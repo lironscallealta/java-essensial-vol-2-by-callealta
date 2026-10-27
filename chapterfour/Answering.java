@@ -1,4 +1,4 @@
-package chapterfour.withinheritance.Answering;
+package chapterfour;
 
 public class Answering {
     /* page 256
