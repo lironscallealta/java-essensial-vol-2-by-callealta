@@ -38,7 +38,7 @@ Las respuestas personales del libro (página 102) están en `Answering.java`, de
 
 Se mantiene el mismo formato que en chapterthree:
 
-- **assignment/codingtaskone/README.md**: enunciado original del ejercicio, extraído de los comentarios existentes.
+- **assignment/codingtaskone/Assignment.java**: enunciado original del ejercicio, extraído de los comentarios existentes.
 - **doing/codingtaskone/CodingTask.java**: tu implementación actual. Incluye la clase de apoyo `PersonFour` en el mismo archivo.
 
 Este capítulo tiene una tarea. Para agregar otra, crea `codingtasktwo` dentro de `assignment` y de `doing`.
