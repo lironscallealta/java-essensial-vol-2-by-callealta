@@ -1,46 +1,46 @@
-# Chapter Two — variables, referencias y constructores
+# Chapter Two — variables, references, and constructors
 
-Las carpetas de temas contienen ejemplos de referencia. `codingtask` contiene el ejercicio y tu avance.
+The topic folders contain reference examples. `codingtask` contains the exercise and your work in progress.
 
-## Orden sugerido para retomar el capítulo
+## Suggested study order
 
-1. **variablesandscope/**: variables locales, alcance por bloques e inferencia de tipos.
-2. **methods/**: parámetros y argumentos.
-3. **referencesandpassbyvalue/**: referencias a objetos y paso por valor.
-4. **constructors/**: constructores, uso de `this` y copia de objetos.
-5. **codingtask/**: práctica que reúne conceptos del capítulo.
+1. **variablesandscope/**: local variables, block scope, and type inference.
+2. **methods/**: parameters and arguments.
+3. **referencesandpassbyvalue/**: object references and pass-by-value.
+4. **constructors/**: constructors, using `this`, and copying objects.
+5. **codingtask/**: practice combining the chapter's concepts.
 
 ## variablesandscope
 
-- Ejecuta `LocalVariableExample.java` para ver variables declaradas dentro de un método.
-- Ejecuta `BlockScopeExample.java` para ver el alcance de una variable dentro de un bloque `if`.
-- Ejecuta `VarExample.java` para ver cómo Java infiere el tipo de una variable local con `var` (requiere Java 10 o posterior).
+- Run `LocalVariableExample.java` to see variables declared inside a method.
+- Run `BlockScopeExample.java` to see the scope of a variable inside an `if` block.
+- Run `VarExample.java` to see how Java infers a local variable's type with `var` (requires Java 10 or later).
 
 ## methods
 
-Ejecuta `MethodWithParameters.java`: el método `greet` recibe un parámetro y se llama con distintos argumentos.
+Run `MethodWithParameters.java`: the `greet` method receives a parameter and is called with different arguments.
 
 ## referencesandpassbyvalue
 
-- Ejecuta **ReferenceAssignmentExample.java** (antes `Main.java`): compara dos referencias al mismo objeto con la creación de otro objeto que contiene los mismos datos.
-- Ejecuta **PassByValueExample.java** (antes `PassTest.java`): compara cambiar un número, reasignar una referencia dentro de un método y modificar un atributo del objeto referenciado. Java pasa los argumentos por valor, también cuando ese valor es una referencia.
-- **Person.java** es la clase de apoyo compartida por los dos ejemplos.
+- Run **ReferenceAssignmentExample.java** (formerly `Main.java`): compares two references to the same object with creating another object containing the same data.
+- Run **PassByValueExample.java** (formerly `PassTest.java`): compares changing a number, reassigning a reference inside a method, and modifying a field of the referenced object. Java passes arguments by value, including when that value is a reference.
+- **Person.java** is the supporting class shared by both examples.
 
-Las respuestas personales del libro (página 102) están en `Answering.java`, dentro de un comentario.
+Personal answers to the book's questions (page 102) are stored in a comment in `Answering.java`.
 
 ## constructors
 
-- Ejecuta **ConstructorExample.java**: un constructor sin argumentos llama a otro mediante `this(...)`, y ambos comparten la validación de edad. La clase de apoyo `ExamplePerson` está en el mismo archivo.
-- Ejecuta **CopyConstructorExample.java** (antes `TestPersonTwo.java`): utiliza `PersonTwo.addAge()`, que llama al constructor de copia para crear otra persona con una edad distinta.
-- **PersonTwo.java** es la clase de apoyo del ejemplo de copia.
+- Run **ConstructorExample.java**: a no-argument constructor calls another constructor through `this(...)`, and both share age validation. The supporting class `ExamplePerson` is in the same file.
+- Run **CopyConstructorExample.java** (formerly `TestPersonTwo.java`): uses `PersonTwo.addAge()`, which calls the copy constructor to create another person with a different age.
+- **PersonTwo.java** is the supporting class for the copy example.
 
 ## codingtask
 
-Se mantiene el mismo formato que en chapterthree:
+This follows the same format as chapterthree:
 
-- **assignment/codingtaskone/Assignment.java**: enunciado original del ejercicio, extraído de los comentarios existentes.
-- **doing/codingtaskone/CodingTask.java**: tu implementación actual. Incluye la clase de apoyo `PersonFour` en el mismo archivo.
+- **assignment/codingtaskone/Assignment.java**: the original exercise instructions, extracted from the existing comments.
+- **doing/codingtaskone/CodingTask.java**: your current implementation. It includes the supporting class `PersonFour` in the same file.
 
-Este capítulo tiene una tarea. Para agregar otra, crea `codingtasktwo` dentro de `assignment` y de `doing`.
+This chapter has one task. To add another, create `codingtasktwo` inside both `assignment` and `doing`.
 
-Los ejemplos que se ejecutan tienen un método `main`. Las clases de apoyo se consultan para entender cómo funciona cada ejemplo.
+Runnable examples have a `main` method. Refer to the supporting classes to understand how each example works.

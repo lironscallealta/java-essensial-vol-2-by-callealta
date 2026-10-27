@@ -1,12 +1,12 @@
-# Java Essencial Vol 2 — guía de estudio
+# Java Essencial Vol 2 — study guide
 
-Este proyecto reúne ejemplos y ejercicios del libro, separados por capítulo. Para retomar el estudio, abre primero el README del capítulo y busca el tema que necesitas.
+This project contains examples and exercises from the book, organized by chapter. To resume studying, open the chapter's README first and find the topic you need.
 
-- [chapterone](chapterone/README.md): fundamentos, consola, tipos, arreglos y primeros objetos.
-- [chaptertwo](chaptertwo/README.md): variables y alcance, parámetros, referencias, paso por valor y constructores.
-- [chapterthree](chapterthree/README.md): paquetes e importaciones, encapsulación y métodos estáticos y de instancia.
-- [chapterfour](chapterfour/README.md): herencia, sobrecarga, argumentos variables, constructores y la clase Object.
+- [chapterone](chapterone/README.md): fundamentals, console input and output, types, arrays, and introductory objects.
+- [chaptertwo](chaptertwo/README.md): variables and scope, parameters, references, pass-by-value, and constructors.
+- [chapterthree](chapterthree/README.md): packages and imports, encapsulation, and static and instance methods.
+- [chapterfour](chapterfour/README.md): inheritance, overloading, variable arguments, constructors, and the Object class.
 
-Las carpetas con nombres de temas contienen ejemplos de referencia. En las tareas se mantiene el formato `codingtask/assignment/codingtaskone` para el enunciado o código original y `codingtask/doing/codingtaskone` para tu trabajo en curso. Se repite con `codingtasktwo`, `codingtaskthree`, etc., cuando corresponda.
+Folders named after topics contain reference examples. Tasks follow the format `codingtask/assignment/codingtaskone` for the instructions or original code and `codingtask/doing/codingtaskone` for your work in progress. The pattern is repeated with `codingtasktwo`, `codingtaskthree`, etc., as needed.
 
-Cada guía indica qué archivo ejecutar. Las clases de apoyo, como `Student` o `Person`, se usan desde esos programas. Las declaraciones `package` corresponden a las carpetas desde la raíz del proyecto.
+Each guide identifies the file to run. Supporting classes, such as `Student` or `Person`, are used by those programs. The `package` declarations match the folders relative to the project root.

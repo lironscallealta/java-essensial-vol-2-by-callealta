@@ -1,14 +1,14 @@
-# Chapter One — fundamentos de Java
+# Chapter One — Java fundamentals
 
-Este capítulo tiene un ejemplo general y su clase de apoyo. Ambos archivos se mantienen juntos porque `Main` utiliza `Student`.
+This chapter contains a general example and its supporting class. Both files are kept together because `Main` uses `Student`.
 
-## Por dónde empezar
+## Where to start
 
-Ejecuta `Main.java`. El programa pide un nombre y una edad por consola.
+Run `Main.java`. The program asks for a name and an age through the console.
 
-## Qué enseña cada archivo
+## What each file demonstrates
 
-- **Main.java**: impresión por consola, condiciones con `if`, entrada con `Scanner`, tipos primitivos, operaciones con `String`, arreglos y creación de objetos `Student`.
-- **Student.java**: clase con atributos, un constructor con argumentos, un constructor sin argumentos y el método `printDetails()`.
+- **Main.java**: console output, `if` conditions, input with `Scanner`, primitive types, `String` operations, arrays, and creating `Student` objects.
+- **Student.java**: a class with fields, a constructor with arguments, a no-argument constructor, and the `printDetails()` method.
 
-Dentro de `Main`, los comentarios marcan el cambio de tema. Las respuestas personales del libro (página 51) están en `Answering.java`, dentro de un comentario.
+Inside `Main`, comments mark the changes of topic. Personal answers to the book's questions (page 51) are stored in a comment in `Answering.java`.

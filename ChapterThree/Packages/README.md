@@ -1,26 +1,26 @@
-# Ejemplo: paquetes e importaciones en Java
+# Example: Java packages and imports
 
-Esta carpeta contiene un ejemplo de referencia para estudiar cómo se organizan y se usan clases de distintos paquetes.
+This folder contains a reference example for studying how classes in different packages are organized and used.
 
-## Por dónde empezar
+## Where to start
 
-Abre `importexamples/PackageImportsExample.java` y ejecuta su método `main`. Ese archivo reúne las distintas formas de acceder a las clases de este ejemplo.
+Open `importexamples/PackageImportsExample.java` and run its `main` method. That file brings together the different ways of accessing the classes in this example.
 
-## Qué representa cada carpeta
+## What each folder represents
 
-- `suba/A.java`: clase A, utilizada mediante `import chapterthree.packages.suba.*;`.
-- `suba/subaa/AA.java`: clase AA dentro de un subpaquete, utilizada mediante un import explícito.
-- `subb/B.java`: clase B, utilizada mediante su nombre completo: `chapterthree.packages.subb.B`.
-- `subc/C.java`: clase C, utilizada mediante otro import con `*`.
-- `importexamples/PackageImportsExample.java`: programa que utiliza las cuatro clases.
+- `suba/A.java`: class A, used through `import chapterthree.packages.suba.*;`.
+- `suba/subaa/AA.java`: class AA inside a subpackage, used through an explicit import.
+- `subb/B.java`: class B, used through its fully qualified name: `chapterthree.packages.subb.B`.
+- `subc/C.java`: class C, used through another import with `*`.
+- `importexamples/PackageImportsExample.java`: the program that uses all four classes.
 
-## Qué debes recordar
+## What to remember
 
-1. `package` declara a qué paquete pertenece una clase. En este proyecto coincide con sus carpetas desde la raíz.
-2. `import` permite referirse a una clase mediante su nombre simple, por ejemplo `AA`.
-3. Un import con `*` permite usar los tipos accesibles de ese paquete, pero no incluye sus subpaquetes.
-4. También puedes escribir el nombre completo de una clase sin importarla.
+1. `package` declares the package a class belongs to. In this project, it matches the folders relative to the root.
+2. `import` lets you refer to a class by its simple name, such as `AA`.
+3. An import with `*` lets you use accessible types in that package, but does not include its subpackages.
+4. You can also use a class's fully qualified name without importing it.
 
-## Qué pasa al ejecutarlo
+## What happens when you run it
 
-El programa crea los objetos y llama a `printMe()`. Los métodos están vacíos, por lo que no aparece texto en la consola. Sirven para practicar la estructura de paquetes y comprobar que las referencias a las clases compilan.
+The program creates the objects and calls `printMe()`. The methods are empty, so no text appears in the console. They are used to practice package structure and check that the references to the classes compile.

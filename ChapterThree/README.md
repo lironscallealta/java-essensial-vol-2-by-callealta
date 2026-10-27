@@ -1,13 +1,13 @@
 # Chapter Three
 
-Las carpetas `packages`, `encapsulation` y `staticandinstancemethods` contienen ejemplos de referencia para estudiar. `codingtask` contiene los ejercicios para practicar.
+The `packages`, `encapsulation`, and `staticandinstancemethods` folders contain reference examples for studying. `codingtask` contains practice exercises.
 
-Para retomar el capítulo, elige un tema y abre el archivo de entrada indicado:
+To resume studying this chapter, choose a topic and open the indicated entry point:
 
-- **packages/**: muestra cómo declarar paquetes, importar clases y usar nombres completos. Empieza por `packages/README.md` y luego abre `packages/importexamples/PackageImportsExample.java`. Incluye `suba/subaa`, `subb` y `subc`. Importar `suba.*` no importa las clases de `suba.subaa`; por eso `AA` tiene su propio import.
-- **encapsulation/**: `Person.java` protege los atributos con `private` y permite acceder a ellos mediante getters y setters. `TestPerson.java` muestra su uso y la validación de la edad.
-- **staticandinstancemethods/**: `Calculator.java` compara un método que requiere un objeto con otro que se llama mediante el nombre de la clase (`static`).
-- **codingtask/assignment/**: código original de los ejercicios, organizado en `codingtaskone`, `codingtasktwo` y `codingtaskthree`.
-- **codingtask/doing/**: tus soluciones y avances, con las mismas tres carpetas.
+- **packages/**: demonstrates declaring packages, importing classes, and using fully qualified names. Start with `packages/README.md`, then open `packages/importexamples/PackageImportsExample.java`. It includes `suba/subaa`, `subb`, and `subc`. Importing `suba.*` does not import classes from `suba.subaa`, so `AA` has its own import.
+- **encapsulation/**: `Person.java` protects fields with `private` and provides access through getters and setters. `TestPerson.java` demonstrates their use and age validation.
+- **staticandinstancemethods/**: `Calculator.java` compares a method that requires an object with one called through the class name (`static`).
+- **codingtask/assignment/**: the original exercise code, organized into `codingtaskone`, `codingtasktwo`, and `codingtaskthree`.
+- **codingtask/doing/**: your solutions and work in progress, using the same three folders.
 
-Los archivos Java declaran un paquete que coincide con su ubicación desde la raíz del proyecto.
+The Java files declare packages that match their locations relative to the project root.
