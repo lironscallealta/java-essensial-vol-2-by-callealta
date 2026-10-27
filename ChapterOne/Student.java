@@ -1,4 +1,4 @@
-package ChapterOne;
+package chapterone;
 public class Student {
 
     String name;

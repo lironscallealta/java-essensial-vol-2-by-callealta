@@ -1,4 +1,4 @@
-package ChapterTwo.Constructors;
+package chaptertwo.constructors;
 /** Clase de apoyo: constructor de copia y creación de otra persona con addAge(). */
 public class PersonTwo {
 

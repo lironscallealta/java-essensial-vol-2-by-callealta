@@ -1,4 +1,4 @@
-package ChapterTwo.Constructors;
+package chaptertwo.constructors;
 /** Constructor de copia: usar PersonTwo.addAge() para crear otro objeto. */
 public class CopyConstructorExample {
 

@@ -1,4 +1,4 @@
-package ChapterTwo.VariablesAndScope;
+package chaptertwo.variablesandscope;
 /** Variables locales: declarar y usar variables dentro de un método. */
 public class LocalVariableExample {
 

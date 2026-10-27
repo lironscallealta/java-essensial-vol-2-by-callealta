@@ -1,7 +1,7 @@
-package ChapterTwo.ReferencesAndPassByValue;
+package chaptertwo.referencesandpassbyvalue;
 /** Paso por valor: compara modificar un número, reasignar una referencia y cambiar un atributo. */
 public class PassByValueExample {
-    // Methods to change the current values
+    // methods to change the current values
     public static void changeInt(int value) {
         value = 55;
     }

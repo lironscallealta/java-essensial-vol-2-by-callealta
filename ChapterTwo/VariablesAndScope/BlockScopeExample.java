@@ -1,4 +1,4 @@
-package ChapterTwo.VariablesAndScope;
+package chaptertwo.variablesandscope;
 
 /** Alcance: una variable declarada dentro de un bloque solo existe en ese bloque. */
 public class BlockScopeExample {

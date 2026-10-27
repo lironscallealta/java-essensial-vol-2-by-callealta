@@ -1,4 +1,4 @@
-package ChapterTwo.Methods;
+package chaptertwo.methods;
 
 /** Parámetros y argumentos: llamar a un método con distintos nombres. */
 public class MethodWithParameters {

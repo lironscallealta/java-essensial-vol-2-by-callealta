@@ -1,6 +1,6 @@
 # Enunciado del ejercicio — Chapter Two
 
-Texto original extraído de los comentarios de CodingTask.java. Tu implementación actual está en ../../Doing/CodingTaskOne/CodingTask.java.
+Texto original extraído de los comentarios de CodingTask.java. Tu implementación actual está en ../../doing/codingtaskone/CodingTask.java.
 
 Objective:
 Write a Java program that demonstrates your understanding of primitive data

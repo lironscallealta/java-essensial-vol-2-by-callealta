@@ -1,4 +1,4 @@
-package ChapterTwo.ReferencesAndPassByValue;
+package chaptertwo.referencesandpassbyvalue;
 
 /** Referencias: asignar una referencia, compartir un objeto y crear otro objeto. */
 public class ReferenceAssignmentExample {

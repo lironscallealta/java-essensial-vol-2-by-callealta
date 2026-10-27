@@ -1,4 +1,4 @@
-package ChapterThree.CodingTask.Doing.CodingTaskTwo;
+package chapterthree.codingtask.doing.codingtasktwo;
 
 /*
     * Instructions:

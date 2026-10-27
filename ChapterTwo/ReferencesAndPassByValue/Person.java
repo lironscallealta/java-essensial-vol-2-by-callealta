@@ -1,4 +1,4 @@
-package ChapterTwo.ReferencesAndPassByValue;
+package chaptertwo.referencesandpassbyvalue;
 
 /** Clase de apoyo utilizada por ReferenceAssignmentExample y PassByValueExample. */
 public class Person {

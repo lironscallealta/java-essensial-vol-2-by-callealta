@@ -1,4 +1,4 @@
-package ChapterThree.CodingTask.Assignment.CodingTaskOne;
+package chapterthree.codingtask.assignment.codingtaskone;
 
 /*
 Given the partial code for the class Student that contains 3 attributes: name, studentNumber, and course.

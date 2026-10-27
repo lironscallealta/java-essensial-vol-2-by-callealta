@@ -1,6 +1,6 @@
-package ChapterThree.Packages.subC;
+package chapterthree.packages.subc;
 
-/** Ejemplo de paquetes: Clase del paquete subC. Se usa mediante el import subC.*. */
+/** Ejemplo de paquetes: Clase del paquete subc. Se usa mediante el import subc.*. */
 public class C {
 
     public void printMe() {

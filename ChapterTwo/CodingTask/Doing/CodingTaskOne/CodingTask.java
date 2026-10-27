@@ -1,6 +1,6 @@
-package ChapterTwo.CodingTask.Doing.CodingTaskOne;
+package chaptertwo.codingtask.doing.codingtaskone;
 
-/** Ejercicio en curso: consulta el enunciado en Assignment/CodingTaskOne desde la carpeta CodingTask. */
+/** Ejercicio en curso: consulta el enunciado en assignment/codingtaskone desde la carpeta codingtask. */
 public class CodingTask {
     /*
      * Objective:

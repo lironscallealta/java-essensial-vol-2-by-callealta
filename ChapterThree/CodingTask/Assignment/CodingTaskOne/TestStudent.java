@@ -1,4 +1,4 @@
-package ChapterThree.CodingTask.Assignment.CodingTaskOne;
+package chapterthree.codingtask.assignment.codingtaskone;
 
 // This is the code for TestStudent.java -
 // complete the code.

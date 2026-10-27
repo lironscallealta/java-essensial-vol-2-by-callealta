@@ -1,4 +1,4 @@
-package ChapterThree.Encapsulation;
+package chapterthree.encapsulation;
 
 // Person.java
 public class Person {

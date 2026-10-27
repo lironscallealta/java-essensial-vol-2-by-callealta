@@ -4,15 +4,15 @@ Esta carpeta contiene un ejemplo de referencia para estudiar cómo se organizan 
 
 ## Por dónde empezar
 
-Abre `ImportExamples/PackageImportsExample.java` y ejecuta su método `main`. Ese archivo reúne las distintas formas de acceder a las clases de este ejemplo.
+Abre `importexamples/PackageImportsExample.java` y ejecuta su método `main`. Ese archivo reúne las distintas formas de acceder a las clases de este ejemplo.
 
 ## Qué representa cada carpeta
 
-- `subA/A.java`: clase A, utilizada mediante `import ChapterThree.Packages.subA.*;`.
-- `subA/subAA/AA.java`: clase AA dentro de un subpaquete, utilizada mediante un import explícito.
-- `subB/B.java`: clase B, utilizada mediante su nombre completo: `ChapterThree.Packages.subB.B`.
-- `subC/C.java`: clase C, utilizada mediante otro import con `*`.
-- `ImportExamples/PackageImportsExample.java`: programa que utiliza las cuatro clases.
+- `suba/A.java`: clase A, utilizada mediante `import chapterthree.packages.suba.*;`.
+- `suba/subaa/AA.java`: clase AA dentro de un subpaquete, utilizada mediante un import explícito.
+- `subb/B.java`: clase B, utilizada mediante su nombre completo: `chapterthree.packages.subb.B`.
+- `subc/C.java`: clase C, utilizada mediante otro import con `*`.
+- `importexamples/PackageImportsExample.java`: programa que utiliza las cuatro clases.
 
 ## Qué debes recordar
 

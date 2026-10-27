@@ -1,4 +1,4 @@
-package ChapterTwo.Constructors;
+package chaptertwo.constructors;
 /** Constructores: reutilización con this(...) y validación de argumentos. */
 public class ConstructorExample {
 
