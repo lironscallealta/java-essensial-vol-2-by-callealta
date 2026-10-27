@@ -1,4 +1,4 @@
-package chapterfour.overloading.varargs;
+package chapterfour.varargs;
 
 public class VarargsExample {
 
