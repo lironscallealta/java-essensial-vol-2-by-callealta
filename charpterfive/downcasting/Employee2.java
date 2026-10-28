@@ -1,6 +1,6 @@
 package charpterfive.downcasting;
 
-class Employee2 {
+public class Employee2 {
 
     String name;
     double salary;

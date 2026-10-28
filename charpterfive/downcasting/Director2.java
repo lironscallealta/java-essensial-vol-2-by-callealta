@@ -1,6 +1,6 @@
 package charpterfive.downcasting;
 
-class Director2 extends Manager2 {
+public class Director2 extends Manager2 {
 
     double carAllowance;
 
