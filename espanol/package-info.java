@@ -1,2 +1,2 @@
-/** Material en espanol pendiente de desarrollar. */
+/** Ejemplos y ejercicios del libro con explicaciones en español. */
 package espanol;

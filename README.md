@@ -14,6 +14,6 @@ Each guide identifies the file to run. Supporting classes, such as `Student` or 
 ## Languages
 
 - english/: all existing examples and exercises.
-- espanol/: reserved for future Spanish material.
+- [espanol/](espanol/README.md): Spanish comments, exercises, guides, and console messages for all existing examples.
 
 Package names use lowercase. Chapter five is located in english/chapterfive/.
