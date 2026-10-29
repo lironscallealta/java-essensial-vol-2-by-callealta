@@ -8,7 +8,7 @@ Las carpetas, clases, métodos y variables propios están en español. Se conser
 - [Capítulo 2](cp02variablesreferenciasyconstructores/README.md): variables, referencias y constructores.
 - [Capítulo 3](cp03paquetesyencapsulacion/README.md): paquetes y encapsulación.
 - [Capítulo 4](cp04herenciasobrecargayconstructores/README.md): herencia y sobrecarga.
-- **cp05polimorfismo/**: jerarquías, conversiones ascendentes y descendentes, y arreglos heterogéneos.
+- [Capítulo 5](cp05polimorfismo/README.md): polimorfismo, jerarquías, conversiones ascendentes y descendentes, y arreglos heterogéneos.
 
 Los ejercicios incompletos conservan su estado: la traducción no los resuelve. Se aclararon dos notas conceptuales: una referencia local no se inicializa automáticamente a null y Object es la excepción a la regla de herencia de Object.
 
