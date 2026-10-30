@@ -1,5 +1,42 @@
 package english.cp05polymorphism.codingtask.doing.codingtaskone;
 
 public class PartialScholar extends Student {
-    // TODO: Implement this subclass according to the assignment.
+
+    private float discountRate;
+    private float payableAmount =  super.getTuitionFee() - getDiscountRate() * 100;
+
+    PartialScholar(String name, String course, float tuitionFee, float discountRate) {
+        super(name, course, tuitionFee);
+        this.discountRate = discountRate;
+        
+
+    }
+
+    public float getDiscountRate() {
+        return discountRate;
+    }
+
+    public float getPayableAmount() {
+        return payableAmount;
+    }
+
+    public String getName() {
+        return super.getName();
+    }
+
+  
+    public float getTuitionFee() {
+        return super.getTuitionFee();
+    }
+
+
+    public String getCourse() {
+        return super.getCourse();
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s%nDescount: %.2f %% ", super.toString(), discountRate);
+    }
+
 }
