@@ -5,8 +5,8 @@ public class Test {
     public static void main(String[] args) {
         Student students[] = { new Student("Philips", "A123", 1000.2F),
                 new Student("John", "C321", 2000.0F),
-                new PartialScholar("Pedro", "C321", 3000.0F, 0.3F),
-                new PartialScholar("Lucas", "C321", 3000.0F, 0.3F),
+                new PartialScholar("Pedro", "C321", 3000.0F, 0.5F),
+                new PartialScholar("Lucas", "C321", 3000.0F, 0.5F),
         };
 
         float totalCollection = 0.0F;
@@ -29,8 +29,9 @@ public class Test {
         System.out.println("Results with Descount:");
 
         for (int i = 0; i < students.length; i++) {
-            if (students[i] instanceof Student) {
-                System.out.println();
+            if (students[i] instanceof PartialScholar) {
+                PartialScholar partialScholar = (PartialScholar) students[i];
+                System.out.println(partialScholar.toString() + "--> payment: " + partialScholar.getPayableAmount());
                 
             }
         }

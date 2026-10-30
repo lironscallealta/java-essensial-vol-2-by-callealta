@@ -3,11 +3,13 @@ package english.cp05polymorphism.codingtask.doing.codingtaskone;
 public class PartialScholar extends Student {
 
     private float discountRate;
-    private float payableAmount =  super.getTuitionFee() - getDiscountRate() * 100;
+    private float payableAmount;
 
     PartialScholar(String name, String course, float tuitionFee, float discountRate) {
         super(name, course, tuitionFee);
         this.discountRate = discountRate;
+        this.payableAmount = super.getTuitionFee() - (super.getTuitionFee() * discountRate);
+        
         
 
     }
