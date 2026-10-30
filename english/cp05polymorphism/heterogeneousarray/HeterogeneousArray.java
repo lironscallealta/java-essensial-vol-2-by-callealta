@@ -101,7 +101,10 @@ public class HeterogeneousArray {
         staff[3] = new Manager2();
         staff[4] = new Director2();
 
-        //keep going page 295
+        for (int i = 0; i < staff.length; i++) {
+            System.out.println(staff[i].getDetails());
+            
+        }
 
     }
 
