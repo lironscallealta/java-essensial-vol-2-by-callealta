@@ -9,8 +9,6 @@ public class PartialScholar extends Student {
         super(name, course, tuitionFee);
         this.discountRate = discountRate;
         this.payableAmount = super.getTuitionFee() - (super.getTuitionFee() * discountRate);
-        
-        
 
     }
 
@@ -26,11 +24,9 @@ public class PartialScholar extends Student {
         return super.getName();
     }
 
-  
     public float getTuitionFee() {
         return super.getTuitionFee();
     }
-
 
     public String getCourse() {
         return super.getCourse();
@@ -38,7 +34,7 @@ public class PartialScholar extends Student {
 
     @Override
     public String toString() {
-        return String.format("%s%nDescount: %.2f %% ", super.toString(), discountRate);
+        return String.format("%sDescount: %.2f %% ", super.toString(), discountRate);
     }
 
 }

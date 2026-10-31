@@ -38,7 +38,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return String.format("Name: %s%nCourse: %s%nTuittion Fee %.2f%nStudent Number: %d%nAmount of Students: %d",
+        return String.format("Name: %s%nCourse: %s%nTuittion Fee %.2f%nStudent Number: %d%nAmount of Students: %d%n",
                 name, course,
                 tuitionFee, studentNumber, counter);
     }

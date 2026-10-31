@@ -16,9 +16,9 @@ public class Test {
             System.out.println(students[i]);
         }
 
-        for(int i = 0; i < students.length; i++) {
+        for (int i = 0; i < students.length; i++) {
             if (students[i] instanceof PartialScholar)
-                totalCollection += ((PartialScholar)students[i]).getPayableAmount();
+                totalCollection += ((PartialScholar) students[i]).getPayableAmount();
             else if (students[i] instanceof Student)
                 totalCollection += students[i].getTuitionFee();
         }
@@ -27,12 +27,18 @@ public class Test {
         System.out.println();
 
         System.out.println("Results with Descount:");
+        System.out.println();
 
         for (int i = 0; i < students.length; i++) {
             if (students[i] instanceof PartialScholar) {
                 PartialScholar partialScholar = (PartialScholar) students[i];
-                System.out.println(partialScholar.toString() + "--> payment: " + partialScholar.getPayableAmount());
+                System.out.println(partialScholar.toString());
+                System.out.println("--> payment with discount: " + partialScholar.getPayableAmount());
+                System.out.println();
+            }
+            else {
                 
+                System.out.println(students[i].toString());
             }
         }
 
