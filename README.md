@@ -8,6 +8,8 @@ This project contains examples and exercises from the book, organized by chapter
 - [cp04inheritanceoverloadingandconstructors](english/cp04inheritanceoverloadingandconstructors/README.md): inheritance, overloading, variable arguments, constructors, and the Object class.
 - [cp05polymorphism](english/cp05polymorphism/README.md): polymorphism, inheritance hierarchies, upcasting, downcasting, and heterogeneous arrays.
 
+- [cp06otherclassfeatures](english/cp06otherclassfeatures/README.md): static members and imports, utility classes, wrapper classes, and final (in progress).
+
 Folders named after topics contain reference examples. Tasks follow the format `codingtask/assignment/codingtaskone` for the instructions or original code and `codingtask/doing/codingtaskone` for your work in progress. The pattern is repeated with `codingtasktwo`, `codingtaskthree`, etc., as needed.
 
 Each guide identifies the file to run. Supporting classes, such as `Student` or `Person`, are used by those programs. The `package` declarations match the folders relative to the project root.
@@ -17,4 +19,4 @@ Each guide identifies the file to run. Supporting classes, such as `Student` or 
 - english/: all existing examples and exercises.
 - [espanol/](espanol/README.md): Spanish comments, exercises, guides, and console messages for all existing examples.
 
-Package names use lowercase. Open [Chapter 5 in English](english/cp05polymorphism/README.md) or [Capítulo 5 en español](espanol/cp05polimorfismo/README.md) for links to the runnable examples.
+Package names use lowercase. Open [Chapter 6 in English](english/cp06otherclassfeatures/README.md) or [Capítulo 6 en español](espanol/cp06otrascaracteristicasdelasclases/README.md) for links to the runnable examples.
