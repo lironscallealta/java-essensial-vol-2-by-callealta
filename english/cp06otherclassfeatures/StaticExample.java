@@ -30,6 +30,8 @@ public class StaticExample {
 
         System.out.println(StaticExample.counter);
 
+        
+
     }
 
     /*
