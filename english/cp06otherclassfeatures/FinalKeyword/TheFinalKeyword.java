@@ -1,6 +1,11 @@
-package english.cp06otherclassfeatures;
+package english.cp06otherclassfeatures.FinalKeyword;
 
 public class TheFinalKeyword {
+
+    public static final double SALES_VAT = 0.12; /* is not variable is constant now
+    has to be initilized  */ 
+
+
 
 }
 
@@ -10,7 +15,7 @@ public class TheFinalKeyword {
  * - A final class cannot be subclassed. For example, `String` is final,
  * so attempting to extend it causes a compilation error:
  *
- * class MyString extends String { }
+ * class MyString extends String { } -> Error
  *
  * Declaring a class final prevents subclasses from changing or extending
  * its behavior. `String` is also designed to be immutable.
@@ -25,4 +30,6 @@ public class TheFinalKeyword {
  *
  * A field that is both `static` and `final` is commonly used for a
  * class-level constant.
+ * 
+ * 
  */
