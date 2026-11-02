@@ -14,6 +14,7 @@ public class StaticImports {
     public static void main(String[] args) {
         out.println(PI);
         out.println(max(20, 50));
+        
 
     }
 
