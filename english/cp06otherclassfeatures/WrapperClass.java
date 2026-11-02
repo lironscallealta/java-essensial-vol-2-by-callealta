@@ -9,4 +9,6 @@ public class WrapperClass {
 
     int sum = i + j; // Error
 
+    Integer anyNumber = Integer.valueOf(5); // -> Integer anyNumber = 5
+
 }
