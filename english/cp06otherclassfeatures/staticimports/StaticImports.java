@@ -1,4 +1,4 @@
-package english.cp06otherclassfeatures;
+package english.cp06otherclassfeatures.staticimports;
 
 import static java.lang.Math.*;
 import static java.lang.System.out;

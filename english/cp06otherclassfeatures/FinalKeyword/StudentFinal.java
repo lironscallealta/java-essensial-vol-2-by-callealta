@@ -1,4 +1,4 @@
-package english.cp06otherclassfeatures.FinalKeyword;
+package english.cp06otherclassfeatures.finalkeyword;
 
 // StudentFinal.java
 

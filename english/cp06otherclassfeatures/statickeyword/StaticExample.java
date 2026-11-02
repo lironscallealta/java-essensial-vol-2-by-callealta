@@ -1,4 +1,4 @@
-package english.cp06otherclassfeatures;
+package english.cp06otherclassfeatures.statickeyword;
 
 public class StaticExample {
 
