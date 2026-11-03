@@ -11,8 +11,8 @@ public class Mammal extends Animal {
 
     };
 
-    public  void sleep(){
-        System.out.println("Mammal Sleeps"); 
+    public void sleep() {
+        System.out.println("Mammal Sleeps");
 
     };
 
