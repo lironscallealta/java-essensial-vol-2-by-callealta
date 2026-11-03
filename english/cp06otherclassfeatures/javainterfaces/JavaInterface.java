@@ -31,7 +31,7 @@ public class JavaInterface {
     }
 
     interface I6 {
-        static final double pi = 3.14;
+        public static final double pi = 3.14;
     }
 
     interface I7 {
