@@ -1,4 +1,4 @@
-package english.cp06otherclassfeatures.testpoint;
+package english.cp06otherclassfeatures.testpoint.recordFeatureJava16;
 
 public class TestPointJavaOnward {
 
