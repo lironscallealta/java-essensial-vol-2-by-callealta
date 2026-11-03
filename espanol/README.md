@@ -10,7 +10,7 @@ Las carpetas, clases, métodos y variables propios están en español. Se conser
 - [Capítulo 4](cp04herenciasobrecargayconstructores/README.md): herencia y sobrecarga.
 - [Capítulo 5](cp05polimorfismo/README.md): polimorfismo, jerarquías, conversiones ascendentes y descendentes, y arreglos heterogéneos.
 
-- [Capítulo 6](cp06otrascaracteristicasdelasclases/README.md): miembros e importaciones estáticas, clases utilitarias, clases envoltorio y final (en desarrollo).
+- [Capítulo 6](cp06otrascaracteristicasdelasclases/README.md): miembros estáticos, final, puntos y records, enumeraciones, clases abstractas e interfaces (en desarrollo).
 
 Los ejercicios incompletos conservan su estado: la traducción no los resuelve. Se aclararon dos notas conceptuales: una referencia local no se inicializa automáticamente a null y Object es la excepción a la regla de herencia de Object.
 
