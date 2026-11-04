@@ -1,5 +1,5 @@
 package english.cp02variablesreferencesandconstructors.constructors;
-/** Constructor de copia: usar PersonTwo.addAge() para crear otro objeto. */
+/** Copy constructor: use PersonTwo.addAge() to create another object. */
 public class CopyConstructorExample {
 
     public static void main(String[] args) {

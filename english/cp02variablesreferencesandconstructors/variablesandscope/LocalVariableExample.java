@@ -1,5 +1,5 @@
 package english.cp02variablesreferencesandconstructors.variablesandscope;
-/** Variables locales: declarar y usar variables dentro de un método. */
+/** Local variables: declare and use variables inside a method. */
 public class LocalVariableExample {
 
     public void displaySum() {

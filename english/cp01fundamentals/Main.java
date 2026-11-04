@@ -2,8 +2,8 @@ package english.cp01fundamentals;
 import java.util.Scanner;
 
 
-/** Ejemplo general del capítulo 1: consola, tipos, arreglos y primeros objetos.
- * Ejecuta main y responde las preguntas de nombre y edad. Usa Student.java.
+/** Chapter 1 overview: console input and output, types, arrays, and introductory objects.
+ * Run main and answer the name and age prompts. Uses Student.java.
  */
 public class Main {
 
@@ -56,12 +56,12 @@ public class Main {
         int[] studentAges = { 17, 16, 18 };
         double[] studentGrades = { 89.5, 92.0, 85.75 };
 
-        // Clases y objetos: usa Student.java de este mismo capítulo.
+        // Classes and objects: uses Student.java from this chapter.
 
         Student student = new Student("name", 15, 4.4);
         student.printDetails();   
         
-        // Constructor sin argumentos y asignación de atributos.
+        // No-argument constructor and field assignment.
         Student student1 = new Student();
         student1.name = "Richar";
         student1.age = 15;

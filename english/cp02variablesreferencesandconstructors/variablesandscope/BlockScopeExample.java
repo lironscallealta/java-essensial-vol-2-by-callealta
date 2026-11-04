@@ -1,6 +1,6 @@
 package english.cp02variablesreferencesandconstructors.variablesandscope;
 
-/** Alcance: una variable declarada dentro de un bloque solo existe en ese bloque. */
+/** Scope: a variable declared inside a block is only in scope within that block. */
 public class BlockScopeExample {
 
     public static void main(String[] args) {

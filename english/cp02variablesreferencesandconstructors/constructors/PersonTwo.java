@@ -1,5 +1,5 @@
 package english.cp02variablesreferencesandconstructors.constructors;
-/** Clase de apoyo: constructor de copia y creación de otra persona con addAge(). */
+/** Supporting class: a copy constructor and creation of another person with addAge(). */
 public class PersonTwo {
 
     private String name = "noname";

@@ -1,6 +1,6 @@
 package english.cp02variablesreferencesandconstructors.variablesandscope;
 
-/** Inferencia de tipos con var: ejemplos de variables locales y bucles. */
+/** Type inference with var: examples of local variables and loops. */
 public class VarExample {
 
     public static void main(String[] args) {

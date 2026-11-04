@@ -1,20 +1,20 @@
 package english.cp03packagesandencapsulation.packages.importexamples;
 
-// TEMA: paquetes e importaciones. Empieza a leer el ejemplo desde este archivo.
-// Consulta ../README.md para ver el propósito de cada carpeta.
-// Import con *: permite usar las clases públicas de suba por su nombre simple.
-// No incluye las clases del subpaquete subaa.
+// TOPIC: packages and imports. Start reading the example in this file.
+// See ../README.md for the purpose of each folder.
+// Wildcard import: lets you use public classes from suba by their simple names.
+// It does not include classes from the subaa subpackage.
 import english.cp03packagesandencapsulation.packages.suba.*;
-// Import explícito: permite usar la clase AA de un subpaquete.
+// Explicit import: lets you use class AA from a subpackage.
 import english.cp03packagesandencapsulation.packages.suba.subaa.AA;
-// Alternativa para B: descomenta este import y usa B en vez del nombre completo.
+// Alternative for B: uncomment this import and use B instead of its fully qualified name.
 // import english.cp03packagesandencapsulation.packages.subb.B;
 import english.cp03packagesandencapsulation.packages.subc.*;
 
 /**
- * Ejemplo ejecutable para practicar paquetes e importaciones.
- * Las clases A, AA, B y C tienen métodos vacíos: al ejecutarlo no aparece texto.
- * El objetivo es ver cómo se usan clases que pertenecen a distintos paquetes.
+ * Runnable example for practicing packages and imports.
+ * Classes A, AA, B, and C have empty methods, so running it produces no output.
+ * The goal is to see how to use classes that belong to different packages.
  */
 public class PackageImportsExample {
 
@@ -23,7 +23,7 @@ public class PackageImportsExample {
         A a = new A();
         AA aa = new AA();
         C c = new C();
-        // Nombre completo: se puede usar B sin añadir un import.
+        // Fully qualified name: B can be used without adding an import.
         english.cp03packagesandencapsulation.packages.subb.B b = new english.cp03packagesandencapsulation.packages.subb.B();
         a.printMe();
         aa.printMe();

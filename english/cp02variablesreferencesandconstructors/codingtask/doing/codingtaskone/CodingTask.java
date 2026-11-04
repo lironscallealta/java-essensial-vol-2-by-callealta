@@ -1,6 +1,6 @@
 package english.cp02variablesreferencesandconstructors.codingtask.doing.codingtaskone;
 
-/** Ejercicio en curso: consulta el enunciado en assignment/codingtaskone desde la carpeta codingtask. */
+/** Exercise in progress: see the instructions in assignment/codingtaskone, relative to the codingtask folder. */
 public class CodingTask {
     /*
      * Objective:

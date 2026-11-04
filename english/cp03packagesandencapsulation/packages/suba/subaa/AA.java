@@ -1,6 +1,6 @@
 package english.cp03packagesandencapsulation.packages.suba.subaa;
 
-/** Ejemplo de paquetes: Clase del subpaquete suba.subaa. Necesita su propio import: suba.* no la incluye. */
+/** Package example: a class in subpackage suba.subaa. It needs its own import: suba.* does not include it. */
 public class AA {
 
     public void printMe (){

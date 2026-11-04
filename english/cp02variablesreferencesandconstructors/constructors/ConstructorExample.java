@@ -1,5 +1,5 @@
 package english.cp02variablesreferencesandconstructors.constructors;
-/** Constructores: reutilización con this(...) y validación de argumentos. */
+/** Constructors: reuse with this(...) and argument validation. */
 public class ConstructorExample {
 
     public static void main(String[] args) {
@@ -16,12 +16,12 @@ class ExamplePerson {
     private String name;
     private int age;
 
-    // Reutiliza el constructor con argumentos
+    // Reuse the constructor with arguments
     public ExamplePerson() {
         this("Sin nombre", 24);
     }
 
-    // Ambos caminos pasan por esta validación
+    // Both paths go through this validation
     public ExamplePerson(String name, int age) {
         if (age < 0) {
             throw new IllegalArgumentException(

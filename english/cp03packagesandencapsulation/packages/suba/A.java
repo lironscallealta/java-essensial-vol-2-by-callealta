@@ -1,6 +1,6 @@
 package english.cp03packagesandencapsulation.packages.suba;
 
-/** Ejemplo de paquetes: Clase del paquete suba. Se usa mediante el import suba.*. */
+/** Package example: a class in package suba, used through the suba.* import. */
 public class A {
 
     public void printMe (){

@@ -1,6 +1,6 @@
 package english.cp02variablesreferencesandconstructors.methods;
 
-/** Parámetros y argumentos: llamar a un método con distintos nombres. */
+/** Parameters and arguments: call a method with different names. */
 public class MethodWithParameters {
 
     // 'name' is a parameter and a local variable

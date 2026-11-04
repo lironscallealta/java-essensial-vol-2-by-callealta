@@ -9,7 +9,7 @@ public class InnerPlanetsEnumExample {
     // are objects of that type, created automatically by Java.
     // We choose one of these values instead of creating one with new.
     /* protected or private */
-    enum InnerPlanets { // It is declared inside a class, Can be private o protected:
+    enum InnerPlanets { // A nested enum can be declared private or protected.
         MERCURY, VENUS, EARTH, MARS; // private or protected -> could be
     }
 

@@ -1,6 +1,6 @@
 package english.cp03packagesandencapsulation.packages.subb;
 
-/** Ejemplo de paquetes: Clase del paquete subb. El ejemplo usa su nombre completo sin importarla. */
+/** Package example: a class in package subb. The example uses its fully qualified name without importing it. */
 public class B {
 
     public void printMe (){

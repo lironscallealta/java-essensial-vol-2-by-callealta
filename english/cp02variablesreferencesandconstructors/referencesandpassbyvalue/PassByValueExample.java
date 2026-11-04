@@ -1,5 +1,5 @@
 package english.cp02variablesreferencesandconstructors.referencesandpassbyvalue;
-/** Paso por valor: compara modificar un número, reasignar una referencia y cambiar un atributo. */
+/** Pass by value: compare modifying a number, reassigning a reference, and changing a field. */
 public class PassByValueExample {
     // methods to change the current values
     public static void changeInt(int value) {

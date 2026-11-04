@@ -1,6 +1,6 @@
 package english.cp02variablesreferencesandconstructors.referencesandpassbyvalue;
 
-/** Referencias: asignar una referencia, compartir un objeto y crear otro objeto. */
+/** References: assign a reference, share an object, and create another object. */
 public class ReferenceAssignmentExample {
 
     // The Referencie Data Types

@@ -1,6 +1,6 @@
 package english.cp02variablesreferencesandconstructors.referencesandpassbyvalue;
 
-/** Clase de apoyo utilizada por ReferenceAssignmentExample y PassByValueExample. */
+/** Supporting class used by ReferenceAssignmentExample and PassByValueExample. */
 public class Person {
     public String name = "~noname";
     public int age = 0;
