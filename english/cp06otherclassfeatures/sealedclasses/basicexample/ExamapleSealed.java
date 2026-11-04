@@ -1,4 +1,4 @@
-package english.cp06otherclassfeatures.sealedclasses;
+package english.cp06otherclassfeatures.sealedclasses.basicexample;
 
 // Without "sealed", any class can implement Shapes.
 interface OpenShapes {
