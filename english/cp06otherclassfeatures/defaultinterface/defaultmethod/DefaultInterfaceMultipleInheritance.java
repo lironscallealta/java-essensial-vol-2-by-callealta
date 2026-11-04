@@ -33,8 +33,7 @@ public class DefaultInterfaceMultipleInheritance
     }
 
     public static void main(String[] args) {
-        DefaultInterfaceMultipleInheritance di =
-                new DefaultInterfaceMultipleInheritance();
+        DefaultInterfaceMultipleInheritance di = new DefaultInterfaceMultipleInheritance();
 
         di.myDefaultGreeting();
     }
