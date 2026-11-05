@@ -10,13 +10,16 @@ public class TestShapes {
     }
 
     public static void shapes(int... inputs) {
-        int total = inputs.length;
+        int totalLenght = inputs.length;
         int numbers[] = inputs;
-        if (total == 1) {
+        if (totalLenght == 3) {
+            
+        }
+        else if (totalLenght == 1) {
             Circle circle = new Circle(inputs[0]);
             circle.getDetails();
         }
-
+        
     }
 
 }
