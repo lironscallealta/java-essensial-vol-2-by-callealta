@@ -1,6 +1,6 @@
 # Capítulo seis — otras características de las clases
 
-Este capítulo está en desarrollo. La guía incluye los ejemplos agregados hasta ahora.
+Esta versión en español incluye todos los ejemplos actuales del capítulo 6 en inglés. Los ejercicios y métodos que están incompletos en el original conservan su estado.
 
 ## Orden de estudio sugerido
 
@@ -16,7 +16,15 @@ Este capítulo está en desarrollo. La guía incluye los ejemplos agregados hast
 9. **Clases abstractas**: compara [PruebaAnimalAbstracto.java](clasesabstractas/PruebaAnimalAbstracto.java) con [PruebaAnimalAbstractoMejorada.java](clasesabstractas/PruebaAnimalAbstractoMejorada.java). Conservan las dos formas de casting y muestran cómo evitar repetir las acciones comunes. Animal, Ave y Mamifero son sus clases de apoyo.
 10. **Interfaces**: ejecuta [InterfazJava.java](interfacesjava/InterfazJava.java) para las constantes y lee [HerenciaDeInterfaces.java](interfacesjava/HerenciaDeInterfaces.java). Ejecuta [EjemploMultiplesInterfaces.java](interfacesjava/EjemploMultiplesInterfaces.java) para combinar una superclase y varias interfaces. Revisa [ObjetoVolador.java](interfacesjava/interfazobjetovolador/ObjetoVolador.java) y [Avion.java](interfacesjava/interfazobjetovolador/Avion.java): son archivos separados y los métodos del avión siguen como borradores.
 
-Los ejemplos con records y variables de patrón en instanceof requieren Java 16 o posterior sin opciones de características preliminares. La clase tradicional Punto también funciona en versiones anteriores.
+11. **Un método que recibe una interfaz**: ejecuta [Principal.java](ejemplointerfaz/Principal.java). Telefono y Bateria implementan Recargable. El método cargar recibe cualquiera de esos objetos y llama a su implementación de recargar.
+12. **Métodos default**: lee [Animal.java](interfazpredeterminada/ejemplouno/Animal.java) y [Mamifero.java](interfazpredeterminada/ejemplouno/Mamifero.java) para ver una implementación heredada desde una interfaz. Ejecuta [InterfazPredeterminada.java](interfazpredeterminada/metodopredeterminado/InterfazPredeterminada.java) para sobrescribirla y llamar a la versión original con MiInterfaz.super. Ejecuta [HerenciaMultipleDeInterfacesPredeterminadas.java](interfazpredeterminada/metodopredeterminado/HerenciaMultipleDeInterfacesPredeterminadas.java) para resolver dos métodos default con la misma firma.
+13. **Métodos estáticos de interfaces**: ejecuta [InterfazEstatica.java](metodoestaticodeinterfaz/InterfazEstatica.java) y lee [MiInterfaz.java](metodoestaticodeinterfaz/MiInterfaz.java). Compara la llamada mediante un objeto con la llamada mediante el nombre de la interfaz.
+14. **Métodos privados de interfaces**: ejecuta [InterfazEstatica.java](metodosprivadoseninterfaces/InterfazEstatica.java) y lee [MiInterfaz.java](metodosprivadoseninterfaces/MiInterfaz.java). Un método default y uno estático reutilizan el mismo método auxiliar privado.
+15. **Interfaces funcionales y lambdas**: ejecuta [EjemploLambda.java](interfazfuncionalylambda/EjemploLambda.java) para los saludos, [OtroEjemploLambda.java](interfazfuncionalylambda/OtroEjemploLambda.java) para parámetros y retorno, y [EjemploLambda2.java](interfazfuncionalylambda/EjemploLambda2.java) para comparar expresiones y bloques con return.
+16. **Clases e interfaces selladas**: lee [EjemploSellado.java](clasesselladas/ejemplobasico/EjemploSellado.java) para estudiar sealed, permits, final y non-sealed. Ejecuta [Principal.java](clasesselladas/Principal.java) para describir círculos y rectángulos.
+17. **Respuestas**: [Respuestas.java](Respuestas.java) conserva tus selecciones y las preguntas pendientes del archivo en inglés. La traducción no las corrige ni completa.
+
+Para compilar todos los ejemplos del capítulo usa **Java 17 o posterior**. Los métodos privados de interfaces requieren Java 9; los records y las variables de patrón en instanceof requieren Java 16; las clases e interfaces selladas requieren Java 17, sin opciones de características preliminares.
 
 ## Continuar estudiando
 
