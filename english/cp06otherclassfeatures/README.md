@@ -19,3 +19,13 @@ Add new examples to the corresponding topic package. Keep package names lowercas
 Open a file with a main method and choose **Run Java** or **Run** above it. Keep the repository folder open as the project root. These examples use packages under english.cp06otherclassfeatures.
 
 [Back to the project guide](../../README.md) · [Spanish version](../../espanol/cp06otrascaracteristicasdelasclases/README.md)
+
+## Coding tasks
+
+- `assignment`: requirements, expected sample output, and original screenshots.
+- `doing`: your workspace, with no exercise implementation added.
+
+1. **Shapes**: [assignment and UML](codingtask/assignment/codingtaskone/README.md) · [doing](codingtask/doing/codingtaskone/README.md).
+2. **Content management system**: [assignment](codingtask/assignment/codingtasktwo/README.md) · [doing](codingtask/doing/codingtasktwo/README.md).
+
+The original screenshots are stored in `codingtask/assignment/images` and linked from both language versions. Open a README preview to see the UML image. These exercises have not been implemented.
