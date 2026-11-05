@@ -1,13 +1,15 @@
 package english.cp01fundamentals;
+
 import java.util.Scanner;
 
-
-/** Chapter 1 overview: console input and output, types, arrays, and introductory objects.
+/**
+ * Chapter 1 overview: console input and output, types, arrays, and introductory
+ * objects.
  * Run main and answer the name and age prompts. Uses Student.java.
  */
 public class Main {
 
-    //Chapter 1
+    // Chapter 1
 
     public static void main(String[] args) {
 
@@ -55,12 +57,15 @@ public class Main {
         String[] studentNames = { "Matthew", "Mark", "Luke" };
         int[] studentAges = { 17, 16, 18 };
         double[] studentGrades = { 89.5, 92.0, 85.75 };
+        String[] names = new String[2];
+        names[0] = "Albert";
+        names[1] = "July";
 
         // Classes and objects: uses Student.java from this chapter.
 
         Student student = new Student("name", 15, 4.4);
-        student.printDetails();   
-        
+        student.printDetails();
+
         // No-argument constructor and field assignment.
         Student student1 = new Student();
         student1.name = "Richar";
