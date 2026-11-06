@@ -4,7 +4,7 @@ public final class Square implements Shape {
 
     private int side;
 
-    Square(int side){
+    Square(int side) {
         this.side = side;
     }
 
