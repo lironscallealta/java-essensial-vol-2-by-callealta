@@ -13,7 +13,7 @@ public final class Triangle implements Shape {
     }
 
     public double getPerimeter() {
-        return 36.0;
+        return side1 + side2 + side3;
     }
 
     public double getArea() {
