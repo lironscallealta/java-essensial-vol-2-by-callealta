@@ -3,22 +3,22 @@ package english.cp05otherclassfeatures.codingtask.doing.codingtasktwo.programcla
 public class Article extends Content implements Readable {
     private int wordCount;
 
-    Article(String title, String author, int wordCount) {
+    public Article(String title, String author, int wordCount) {
         super(title, author);
         this.wordCount = wordCount;
 
     }
 
     @Override
-    void displayInfo() {
-        System.out.println("Author: " + this.author + "Title : " + this.author);
+    public void displayInfo() {
+        System.out.println("Author: " + this.author + ", Article: " + this.title + ".");
         System.out.println("Word count: " + wordCount);
     }
 
     @Override
     public Double calculateReadingTime() {
 
-        return 4.5;
+        return wordCount/ 200.0;
     }
 
     @Override
