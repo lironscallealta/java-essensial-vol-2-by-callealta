@@ -5,12 +5,18 @@ public final class Rectangle implements Shape {
     private int lenght;
     private int width;
 
+    Rectangle(int... sides){
+        lenght = sides[0];
+        width = sides[1];
+
+    }
+
     public double getPerimeter() {
-        return 72.0;
+        return Math.round(2 * (lenght * width));
     }
 
     public double getArea() {
-        return lenght * width;
+        return Math.round(lenght * width) ;
     }
 
     @Override
