@@ -1,22 +1,29 @@
-# Java Essencial Vol 2 — study guide
+# Java Essentials Volume 2 — study guide
 
-This project contains examples and exercises from the book, organized by chapter. To resume studying, open the chapter's README first and find the topic you need.
+Examples and exercises organized to match the chapter numbering in Lawrence G. Decamora III's *Java Essentials Volume 2: Object-Oriented Programming and Beyond* (2026, ISBN 9781636516578).
 
-- [cp01fundamentals](english/cp01fundamentals/README.md): fundamentals, console input and output, types, arrays, and introductory objects.
-- [cp02variablesreferencesandconstructors](english/cp02variablesreferencesandconstructors/README.md): variables and scope, parameters, references, pass-by-value, and constructors.
-- [cp03packagesandencapsulation](english/cp03packagesandencapsulation/README.md): packages and imports, encapsulation, and static and instance methods.
-- [cp04inheritanceoverloadingandconstructors](english/cp04inheritanceoverloadingandconstructors/README.md): inheritance, overloading, variable arguments, constructors, and the Object class.
-- [cp05polymorphism](english/cp05polymorphism/README.md): polymorphism, inheritance hierarchies, upcasting, downcasting, and heterogeneous arrays.
+## Chapters studied so far
 
-- [cp06otherclassfeatures](english/cp06otherclassfeatures/README.md): static members and imports, utility classes, wrapper classes, and final (in progress).
+- [Chapter 0 — The Bridge to Volume 2: Bridging Fundamentals with Object-Oriented Programming](english/cp00bridgetovolume2/README.md)
+- [Chapter 1 — The Reference Data Types](english/cp01referencedatatypes/README.md)
+- [Chapter 2 — An Introduction to Object-Oriented Concepts](english/cp02objectorientedconcepts/README.md)
+- [Chapter 3 — Inheritance](english/cp03inheritance/README.md)
+- [Chapter 4 — Polymorphism](english/cp04polymorphism/README.md)
+- [Chapter 5 — Other Class Features](english/cp05otherclassfeatures/README.md)
 
-Folders named after topics contain reference examples. Tasks follow the format `codingtask/assignment/codingtaskone` for the instructions or original code and `codingtask/doing/codingtaskone` for your work in progress. The pattern is repeated with `codingtasktwo`, `codingtaskthree`, etc., as needed.
+The book starts at **Chapter 0**. The project previously counted that introductory chapter as Chapter 1, shifting every following folder by one. Numbering and chapter titles now follow the book through **Chapter 5 — Other Class Features**, which is the current study point. No later chapters have been added.
 
-Each guide identifies the file to run. Supporting classes, such as `Student` or `Person`, are used by those programs. The `package` declarations match the folders relative to the project root.
+Existing examples, supplementary practice, answers, and unfinished exercises retain their content. Topic folders group related examples within each chapter; the chapter guides identify their entry points.
 
-## Languages
+## Exercises
 
-- english/: all existing examples and exercises.
-- [espanol/](espanol/README.md): Spanish comments, exercises, guides, and console messages for all existing examples.
+`codingtask/assignment` contains instructions and reference material; `codingtask/doing` contains your solutions and work in progress. In Spanish, the equivalent folders are `tareasdecodificacion/asignacion` and `tareasdecodificacion/desarrollo`.
 
-Package names use lowercase. Open [Chapter 6 in English](english/cp06otherclassfeatures/README.md) or [Capítulo 6 en español](espanol/cp06otrascaracteristicasdelasclases/README.md) for links to the runnable examples.
+## Languages and execution
+
+- `english/`: English examples and exercises.
+- [Versión en español](espanol/README.md): translated examples, comments, and study guides.
+
+Keep this repository open as the project root. Package declarations, imports, and documentation links use the new folder names. Java 17 or later is needed for the existing sealed-class examples.
+
+Current chapter: [English](english/cp05otherclassfeatures/README.md) · [Español](espanol/cp05otrascaracteristicasdelasclases/README.md).

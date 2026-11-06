@@ -1,17 +1,18 @@
 # Java Essentials Vol. 2 — versión en español
 
-Esta versión incluye los mismos ejemplos y ejercicios que english, con comentarios, enunciados, guías y mensajes de consola en español.
+La numeración corresponde al índice del libro de Lawrence G. Decamora III (2026, ISBN 9781636516578).
 
-Las carpetas, clases, métodos y variables propios están en español. Se conservan las palabras reservadas de Java y los nombres exigidos por sus API, como String, System, main, equals, hashCode y toString. Todas las referencias internas utilizan espanol.
+- [Capítulo 0 — El puente al volumen 2: de los fundamentos a la programación orientada a objetos](cp00puentealvolumen2/README.md)
+- [Capítulo 1 — Los tipos de datos por referencia](cp01tiposdedatosporreferencia/README.md)
+- [Capítulo 2 — Introducción a los conceptos orientados a objetos](cp02conceptosdeorientacionaobjetos/README.md)
+- [Capítulo 3 — Herencia](cp03herencia/README.md)
+- [Capítulo 4 — Polimorfismo](cp04polimorfismo/README.md)
+- [Capítulo 5 — Otras características de las clases](cp05otrascaracteristicasdelasclases/README.md)
 
-- [Capítulo 1](cp01fundamentos/README.md): fundamentos.
-- [Capítulo 2](cp02variablesreferenciasyconstructores/README.md): variables, referencias y constructores.
-- [Capítulo 3](cp03paquetesyencapsulacion/README.md): paquetes y encapsulación.
-- [Capítulo 4](cp04herenciasobrecargayconstructores/README.md): herencia y sobrecarga.
-- [Capítulo 5](cp05polimorfismo/README.md): polimorfismo, jerarquías, conversiones ascendentes y descendentes, y arreglos heterogéneos.
+El libro empieza en el **capítulo 0**. Antes, el proyecto contaba ese repaso como capítulo 1 y desplazaba los demás números. Tu antiguo capítulo 6 ahora es el **capítulo 5: Otras características de las clases**. Este es el punto actual de estudio; no se agregaron capítulos posteriores.
 
-- [Capítulo 6](cp06otrascaracteristicasdelasclases/README.md): miembros estáticos, final, puntos y records, enumeraciones, clases abstractas, interfaces, métodos default, lambdas y clases selladas. Traducción al día con todos los ejemplos actuales en inglés.
+Los ejemplos, ejercicios y respuestas conservan su estado. Los ejemplos complementarios siguen agrupados por tema dentro del capítulo correspondiente. Las carpetas, clases, métodos y variables propios están en español; se conservan las palabras reservadas de Java y los nombres de sus API.
 
-Los ejercicios incompletos conservan su estado: la traducción no los resuelve. Se aclararon dos notas conceptuales: una referencia local no se inicializa automáticamente a null y Object es la excepción a la regla de herencia de Object.
+En las tareas, `asignacion` contiene los enunciados y `desarrollo` contiene tu trabajo. Abre un archivo con `main` para ejecutarlo desde el editor, manteniendo la raíz del repositorio como raíz del proyecto. Para compilar todos los temas actuales usa Java 17 o posterior y codificación UTF-8.
 
-Abre un ejemplo con main y ejecútalo desde tu editor. Para compilar por consola utiliza UTF-8 y mantén la raíz del repositorio como raíz de los paquetes.
+[Volver a la guía general](../README.md)
