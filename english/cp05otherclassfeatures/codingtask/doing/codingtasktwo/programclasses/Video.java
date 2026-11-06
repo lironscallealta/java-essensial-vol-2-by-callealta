@@ -11,20 +11,27 @@ public class Video extends Content implements Watchable {
 
     @Override
     public void displayInfo() {
-        System.out.println("Author: " + this.author + " Title : " + this.author);
-        System.out.println("Duration: " + duration);
+        System.out.println("Author: " + this.author + ", film : " + this.title);
 
     }
 
     @Override
     public Double calculateReadingTime() {
 
-        return null;
+        return this.duration;
     }
 
     @Override
     public void watch() {
+        System.out.println("Film playing: " + this.title);
 
+    }
+
+    @Override
+    public void publish() {
+
+        super.publish();
+        System.out.println(this.title);
     }
 
 }

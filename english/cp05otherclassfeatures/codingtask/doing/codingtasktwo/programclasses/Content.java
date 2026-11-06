@@ -15,7 +15,7 @@ public abstract class Content {
     public abstract Double calculateReadingTime();
 
     public void publish() {
-        System.out.println("The content is published");
+        System.out.print("Published content: ");
     }
 
 }

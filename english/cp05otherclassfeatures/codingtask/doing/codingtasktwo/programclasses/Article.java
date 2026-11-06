@@ -23,7 +23,14 @@ public class Article extends Content implements Readable {
 
     @Override
     public void read() {
-        System.out.println("Article is being read");
+        System.out.println("Article reading: " + this.title);
+    }
+
+    @Override
+    public void publish() {
+        
+        super.publish();
+        System.out.println(this.title);
     }
 
 }
