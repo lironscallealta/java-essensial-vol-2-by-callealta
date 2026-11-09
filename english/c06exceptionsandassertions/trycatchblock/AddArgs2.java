@@ -20,7 +20,7 @@ public class AddArgs2 {
     }
 }
 
-//try java english.c06exceptionsandassertions.AddArgs2 10 2.2 thirty 40
+//try java english\c06exceptionsandassertions\trycatchblock\AddArgs2.java 10 2.2 thirty 40
 
 
 
