@@ -17,3 +17,12 @@ public class SampleIO2 {
         }
     }
 }
+
+/*
+ * Notice that in lines 7 and 8, you have a try block that has parameters in it.
+ * The object BufferedReader in that was declared inside the try block parameter
+ * is considered a resource and will be closed automatically after the try block
+ * is finished in line 17. No need to call the in.close() method because all
+ * resources declared inside the parameterized try block will be closed as long
+ * as those objects are
+ */
