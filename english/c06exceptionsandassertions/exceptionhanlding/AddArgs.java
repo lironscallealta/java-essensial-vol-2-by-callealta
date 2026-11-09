@@ -9,6 +9,7 @@ public class AddArgs {
         System.out.println("Sum: " + sum);
     }
 }
+//with cmd terminal
 // java english/c06exceptionsandassertions/exceptionhanlding/AddArgs.java
 // AddArgs 10 20 30 40
 
