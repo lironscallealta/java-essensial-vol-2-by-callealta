@@ -5,14 +5,14 @@ public class SomeClass {
     public static void main(String[] args) {
         
         // unhandled exception will be thrown
-        // here from line 15, this will cause
+        // here from line 16, this will cause
         // the abnormal termination of the program
         method1();
     }
     public static void method1() {
         
         // unhandled exception object from
-        // line 21 will be rethrown to line 9
+        // line 21 will be rethrown to line 10
         method2();    
     }
     public static void method2() throws Exception {
