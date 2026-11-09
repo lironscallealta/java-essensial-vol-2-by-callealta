@@ -1,4 +1,4 @@
-package english.c06exceptionsandassertions.exceptionhanlding;
+package english.c06exceptionsandassertions.trycatchblock;
 
 public class AddArgs3 {
 
@@ -22,6 +22,6 @@ public class AddArgs3 {
     }
 }
 //with cmd terminal
-// compile javac english\c06exceptionsandassertions\exceptionhanlding\AddArgs3.java
+// compile javac english\c06exceptionsandassertions\AddArgs3.java
 //or try direct
-//java english\c06exceptionsandassertions\exceptionhanlding\AddArgs3.java 10 2.2 thirty 40
+//java english\c06exceptionsandassertions\AddArgs3.java 10 2.2 thirty 40

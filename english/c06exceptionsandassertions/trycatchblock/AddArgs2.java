@@ -1,4 +1,4 @@
-package english.c06exceptionsandassertions.exceptionhanlding;
+package english.c06exceptionsandassertions.trycatchblock;
 
 public class AddArgs2 {
 
@@ -20,7 +20,7 @@ public class AddArgs2 {
     }
 }
 
-//try java english.c06exceptionsandassertions.exceptionhanlding.AddArgs2 10 2.2 thirty 40
+//try java english.c06exceptionsandassertions.AddArgs2 10 2.2 thirty 40
 
 
 
