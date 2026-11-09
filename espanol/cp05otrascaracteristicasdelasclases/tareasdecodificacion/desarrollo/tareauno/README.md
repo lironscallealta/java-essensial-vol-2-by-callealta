@@ -1,5 +1,5 @@
 # Desarrollo — tarea 1
 
-Espacio reservado para tu solución. Todavía no contiene una implementación.
+Ejecuta [PruebaFiguras.java](figuras/PruebaFiguras.java) para ver los cuatro ejemplos con medidas definidas en el código. [CalculadoraFiguras.java](figuras/CalculadoraFiguras.java) elige la figura según las medidas que recibe.
 
-Lee el [enunciado completo](../../asignacion/tareauno/README.md) antes de empezar. Crea aquí tus archivos Java usando el paquete indicado en `package-info.java`.
+Consulta el [enunciado completo](../../asignacion/tareauno/README.md) para comparar los requisitos con el avance actual.

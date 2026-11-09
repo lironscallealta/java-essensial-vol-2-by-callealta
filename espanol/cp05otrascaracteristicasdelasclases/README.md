@@ -41,9 +41,9 @@ Abre un archivo con main y selecciona **Run Java** o **Run** sobre el método. M
 ## Tareas de codificación
 
 - **Asignación** (`asignacion`, equivalente a `assignment`): enunciados, requisitos, salidas de ejemplo y capturas originales.
-- **Desarrollo** (`desarrollo`, equivalente a `doing`): espacio para escribir tu solución, todavía sin implementar.
+- **Desarrollo** (`desarrollo`, equivalente a `doing`): versión en español de tus soluciones en curso.
 
 1. **Figuras**: [enunciado y UML](tareasdecodificacion/asignacion/tareauno/README.md) · [desarrollo](tareasdecodificacion/desarrollo/tareauno/README.md).
 2. **Gestor de contenido**: [enunciado](tareasdecodificacion/asignacion/tareados/README.md) · [desarrollo](tareasdecodificacion/desarrollo/tareados/README.md).
 
-Las imágenes originales se guardan en la carpeta de asignaciones del capítulo en inglés y se enlazan desde ambas versiones. Puedes verlas al abrir la vista previa del README. No se han desarrollado estas tareas.
+Las imágenes originales se guardan en la carpeta de asignaciones del capítulo en inglés y se enlazan desde ambas versiones. Puedes verlas al abrir la vista previa del README.

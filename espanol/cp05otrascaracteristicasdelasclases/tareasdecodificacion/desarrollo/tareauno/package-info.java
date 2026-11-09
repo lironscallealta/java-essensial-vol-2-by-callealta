@@ -1,4 +1,4 @@
 /**
- * Espacio de desarrollo pendiente. Consulta el README; ejercicio sin resolver.
+ * Versión en español del desarrollo actual de la tarea.
  */
 package espanol.cp05otrascaracteristicasdelasclases.tareasdecodificacion.desarrollo.tareauno;

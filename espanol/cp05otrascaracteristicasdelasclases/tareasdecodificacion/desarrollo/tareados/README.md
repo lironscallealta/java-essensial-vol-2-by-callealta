@@ -1,5 +1,5 @@
 # Desarrollo — tarea 2
 
-Espacio reservado para tu solución. Todavía no contiene una implementación.
+Ejecuta [Principal.java](Principal.java) para mostrar y publicar un artículo, un video y un pódcast. Las clases e interfaces de contenido están en `clasesdelprograma`.
 
-Lee el [enunciado completo](../../asignacion/tareados/README.md) antes de empezar. Crea aquí tus archivos Java usando el paquete indicado en `package-info.java`.
+Consulta el [enunciado completo](../../asignacion/tareados/README.md) para comparar los requisitos con el avance actual.
