@@ -14,3 +14,6 @@ public class AddArgs {
 
 // or
 // java english.c06exceptionsandassertions.exceptionhanlding.AddArgs 10 20 30 40
+
+//Try this to hace error with non-integer
+// java english.c06exceptionsandassertions.exceptionhanlding.AddArgs 10 2.2 thirty 40
