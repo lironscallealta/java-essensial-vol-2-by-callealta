@@ -3,7 +3,9 @@ package english.cp05otherclassfeatures.codingtask.doing.codingtaskone.Shapes;
 public class CalculatorFigures {
 
     public static void shapes(int... inputs) {
-        try {
+
+        try
+         {
             for (int i : inputs) {
                 if (i < 0) {
                     throw new IllegalArgumentException();
