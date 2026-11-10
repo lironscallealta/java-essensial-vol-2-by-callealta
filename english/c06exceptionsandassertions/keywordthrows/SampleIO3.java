@@ -2,6 +2,7 @@ package english.c06exceptionsandassertions.keywordthrows;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.sql.SQLException;
 import java.io.IOException;
 
 public class SampleIO3 {
@@ -49,4 +50,13 @@ public class SampleIO3 {
 
         in.close();
     }
+}
+
+class MethodExamples {
+    void doStuff() throws IOException {
+    }
+
+    void someMethod() throws SQLException, IOException {
+    }
+
 }
