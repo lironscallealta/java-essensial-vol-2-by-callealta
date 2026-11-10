@@ -35,6 +35,7 @@ public class CalculatorFigures {
         } catch (IllegalArgumentException e) {
 
             System.err.println("It can't be less than zero");
+            e.getMessage();
             throw e;
         }
 
