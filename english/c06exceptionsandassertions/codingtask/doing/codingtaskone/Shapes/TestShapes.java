@@ -18,12 +18,15 @@ public class TestShapes {
         for (int i = 0; i < listIntegers.size(); i++) {
             listInt[i] = listIntegers.get(i);
         }
-        int numbers[] = listInt;
+        int numbersInputs[] = listInt;
 
         // example Circle, Rectangle, Square, Triangule
-        System.out.println("----------#1----------");
-        shapes(numbers);
+        System.out.println("----------#Full----------");
+        shapes(numbersInputs);
 
     }
 
+    
 }
+
+//java english\c06exceptionsandassertions\codingtask\doing\codingtaskone\Shapes\TestShapes.java 10 50
