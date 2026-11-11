@@ -1,4 +1,4 @@
-package english.c07javatextbasedaplications;
+package english.c07javatextbasedaplications.inputoutput;
 import java.io.*;
 
 public class KeyboardInput {
