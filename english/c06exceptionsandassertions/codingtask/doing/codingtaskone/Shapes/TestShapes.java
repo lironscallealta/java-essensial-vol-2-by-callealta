@@ -1,28 +1,17 @@
 package english.c06exceptionsandassertions.codingtask.doing.codingtaskone.Shapes;
 
-import static english.cp05otherclassfeatures.codingtask.doing.codingtaskone.Shapes.CalculatorFigures.*;
-
-import java.util.ArrayList;
-
 public class TestShapes {
 
     public static void main(String[] args) {
-        ArrayList<Integer> listIntegers = new ArrayList<>();
-        for (String integers : args) {
-
-            Integer integerNumber = Integer.parseInt(integers);
-            listIntegers.add(integerNumber);
+        try {
+            CalculatorFigures.shapes(args);
+        } catch (NumberFormatException e) {
+            System.err.println("An argument contains a String value.");
+            System.err.println("A NumberFormatException is caught.");
+        } catch (IllegalArgumentException e) {
+            System.err.println(e.getMessage());
+            System.err.println("An IllegalArgumentException is caught.");
         }
-
-        int[] listInt = new int[listIntegers.size()];
-        for (int i = 0; i < listIntegers.size(); i++) {
-            listInt[i] = listIntegers.get(i);
-        }
-        int numbersInputs[] = listInt;
-
-        // example Circle, Rectangle, Square, Triangule
-        System.out.println("----------#Full----------");
-        shapes(numbersInputs);
 
     }
 
