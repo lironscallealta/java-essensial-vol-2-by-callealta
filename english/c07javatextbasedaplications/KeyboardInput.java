@@ -19,3 +19,5 @@ public class KeyboardInput {
         br.close();
     }
 }
+
+// Ctrl + Z is equivalent to the null 
