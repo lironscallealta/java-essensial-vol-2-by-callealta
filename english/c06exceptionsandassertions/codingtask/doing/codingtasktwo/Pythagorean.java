@@ -4,7 +4,7 @@ import static java.lang.Math.*;
 
 public class Pythagorean {
 
-    static double pythagoreanTheorem(double a, double b) {
+    public static double pythagoreanTheorem(double a, double b) {
         
         return sqrt(pow(a,2) + pow(b,2));      
         
