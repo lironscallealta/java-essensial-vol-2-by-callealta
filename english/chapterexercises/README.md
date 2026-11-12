@@ -22,3 +22,9 @@ Use `0001` for read, `0010` for write, and `0100` for execute. Ana has write and
 [ArrayExercises.java](ArrayExercises.java)
 
 Examples from one to four dimensions · [ArrayDimensions.java](ArrayDimensions.java)
+
+
+## Recursive examples
+
+- [RecursiveHello.java](RecursiveHello.java) repeats a greeting with a recursive method.
+- [RecursiveCountdown.java](RecursiveCountdown.java) counts down until its base case.
