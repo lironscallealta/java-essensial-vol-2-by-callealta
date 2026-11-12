@@ -15,4 +15,6 @@ Los ejemplos, ejercicios y respuestas conservan su estado. Los ejemplos compleme
 
 En las tareas, `asignacion` contiene los enunciados y `desarrollo` contiene tu trabajo. Abre un archivo con `main` para ejecutarlo desde el editor, manteniendo la raíz del repositorio como raíz del proyecto. Para compilar todos los temas actuales usa Java 17 o posterior y codificación UTF-8.
 
+[Ejercicios de los capítulos](ejerciciosdeloscapitulos/README.md)
+
 [Volver a la guía general](../README.md)

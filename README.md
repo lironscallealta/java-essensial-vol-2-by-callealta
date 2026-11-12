@@ -17,6 +17,8 @@ Existing examples, supplementary practice, answers, and unfinished exercises ret
 
 ## Exercises
 
+Practice with [Chapter Exercises](english/chapterexercises/README.md) or [Ejercicios de los capítulos](espanol/ejerciciosdeloscapitulos/README.md).
+
 `codingtask/assignment` contains instructions and reference material; `codingtask/doing` contains your solutions and work in progress. In Spanish, the equivalent folders are `tareasdecodificacion/asignacion` and `tareasdecodificacion/desarrollo`.
 
 ## Languages and execution
