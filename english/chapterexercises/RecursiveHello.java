@@ -12,7 +12,7 @@ public class RecursiveHello {
         }
 
         // This call prints one greeting.
-        int i = 0;
+      
         System.out.println(anyWord);
 
         // Call this same method again with one fewer repetition.
