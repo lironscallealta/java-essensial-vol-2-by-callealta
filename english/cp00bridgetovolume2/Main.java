@@ -61,6 +61,13 @@ public class Main {
         names[0] = "Albert";
         names[1] = "July";
 
+        //more examples
+        int myNum = 5;
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;
+        String myText = "Hello";
+
         // Classes and objects: uses Student.java from this chapter.
 
         Student student = new Student("name", 15, 4.4);
