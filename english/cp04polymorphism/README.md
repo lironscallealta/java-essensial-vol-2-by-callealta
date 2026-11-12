@@ -7,6 +7,11 @@
 3. **Downcasting**: open [TestEmployee2.java](downcasting/TestEmployee2.java). Compare upcasting, explicit casts, and type checks with instanceof before calling subclass methods.
 4. **Heterogeneous arrays**: open [HeterogeneousArray.java](heterogeneousarray/HeterogeneousArray.java). It stores different employee subclasses in one array. The comments explain four ways to initialize an array. This example currently creates the array without printing output.
 
+5. **Polymorphic arguments**. Open [TestAnimal.java](metodhswithpolymorphicarguments/TestAnimal.java) to pass birds and mammals to a method that takes an Animal.
+6. **Pattern matching with instanceof**. Open [MatchingWithInstanceOf.java](Patternmatchingwithinstanceof/MatchingWithInstanceOf.java) to check the type and declare a variable in the same condition.
+
+See also the [answers](Answering.java).
+
 ## Coding tasks
 
 These tasks are ready for you to implement. The instructions and supplied book code are kept in `assignment`; your starter classes are in `doing`.

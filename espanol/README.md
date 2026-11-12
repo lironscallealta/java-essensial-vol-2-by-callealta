@@ -8,8 +8,8 @@ La numeración corresponde al índice del libro de Lawrence G. Decamora III (202
 - [Capítulo 3 — Herencia](cp03herencia/README.md)
 - [Capítulo 4 — Polimorfismo](cp04polimorfismo/README.md)
 - [Capítulo 5 — Otras características de las clases](cp05otrascaracteristicasdelasclases/README.md)
-
-El libro empieza en el **capítulo 0**. Antes, el proyecto contaba ese repaso como capítulo 1 y desplazaba los demás números. Tu antiguo capítulo 6 ahora es el **capítulo 5: Otras características de las clases**. Este es el punto actual de estudio; no se agregaron capítulos posteriores.
+- [Capítulo 6 — Excepciones y aserciones](cp06excepcionesyaserciones/README.md)
+- [Capítulo 7 — Aplicaciones de texto en Java](cp07aplicacionesdetextoenjava/README.md)
 
 Los ejemplos, ejercicios y respuestas conservan su estado. Los ejemplos complementarios siguen agrupados por tema dentro del capítulo correspondiente. Las carpetas, clases, métodos y variables propios están en español; se conservan las palabras reservadas de Java y los nombres de sus API.
 

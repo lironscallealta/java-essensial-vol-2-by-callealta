@@ -18,14 +18,14 @@ class ExamplePerson {
 
     // Reuse the constructor with arguments
     public ExamplePerson() {
-        this("Sin nombre", 24);
+        this("Unnamed", 24);
     }
 
     // Both paths go through this validation
     public ExamplePerson(String name, int age) {
         if (age < 0) {
             throw new IllegalArgumentException(
-                "La edad no puede ser negativa"
+                "Age cannot be negative"
             );
         }
 
@@ -34,6 +34,6 @@ class ExamplePerson {
     }
 
     public void showDetails() {
-        System.out.println(name + " tiene " + age + " años");
+        System.out.println(name + " is " + age + " years old");
     }
 }

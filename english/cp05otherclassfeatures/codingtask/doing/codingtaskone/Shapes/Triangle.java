@@ -17,17 +17,17 @@ public final class Triangle implements Shape {
     }
 
     public double getArea() {
-        // 1. Validar desigualdad triangular: las tres deben cumplirse
+        // 1. Check the triangle inequality: all three conditions must hold
         boolean isValid = (side1 + side2 > side3) &&
                 (side1 + side3 > side2) &&
                 (side2 + side3 > side1);
 
         if (!isValid) {
             System.out.println("Invalid triangle: the sum of any two sides must be greater than the third side.");
-            return 0.0; // o lanzar: throw new IllegalArgumentException("Invalid triangle sides");
+            return 0.0; // or throw: throw new IllegalArgumentException("Invalid triangle sides");
         }
 
-        // 2. Solo si es válido se calcula el área
+        // 2. Calculate the area only if the triangle is valid
         double s = (side1 + side2 + side3) / 2.0;
         return Math.round(Math.sqrt(s * (s - side1) * (s - side2) * (s - side3))) ;
     }

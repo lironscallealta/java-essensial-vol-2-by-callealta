@@ -16,7 +16,7 @@ public class Student {
     }
 
     public void printDetails() {
-        System.out.printf("tu nombre es %s y tienes %d tu grado es %.2f%n", name, age, grade);   
+        System.out.printf("Your name is %s, you are %d years old, and your grade is %.2f%n", name, age, grade);
     }
 
 }

@@ -19,7 +19,7 @@ public class MatchingWithInstanceOf {
          */
 
         Object obj = "Hello java";
-        var objTwo = "hi";
+        Object objTwo = "hi";
 
         if (obj instanceof String str && str.length() > 5) {
             System.out.println("String 'srt 'is longar than 5 characters: " + str);

@@ -10,11 +10,10 @@ public class AddArgs {
     }
 }
 //with cmd terminal
-// java english/c06exceptionsandassertions/exceptionhanlding/AddArgs.java
-// AddArgs 10 20 30 40
+// java english/c06exceptionsandassertions/exceptionhanlding/AddArgs.java 10 20 30 40
 
 // or
 // java english.c06exceptionsandassertions.exceptionhanlding.AddArgs 10 20 30 40
 
-//Try this to hace error with non-integer
+//Pass a non-integer argument to trigger an exception.
 // java english.c06exceptionsandassertions.exceptionhanlding.AddArgs 10 2.2 thirty 40

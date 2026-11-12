@@ -10,8 +10,8 @@ Examples and exercises organized to match the chapter numbering in Lawrence G. D
 - [Chapter 3 — Inheritance](english/cp03inheritance/README.md)
 - [Chapter 4 — Polymorphism](english/cp04polymorphism/README.md)
 - [Chapter 5 — Other Class Features](english/cp05otherclassfeatures/README.md)
-
-The book starts at **Chapter 0**. The project previously counted that introductory chapter as Chapter 1, shifting every following folder by one. Numbering and chapter titles now follow the book through **Chapter 5 — Other Class Features**, which is the current study point. No later chapters have been added.
+- [Chapter 6 — Exceptions and Assertions](english/c06exceptionsandassertions/README.md)
+- [Chapter 7 — Java Text-Based Applications](english/c07javatextbasedaplications/README.md)
 
 Existing examples, supplementary practice, answers, and unfinished exercises retain their content. Topic folders group related examples within each chapter; the chapter guides identify their entry points.
 
@@ -26,4 +26,4 @@ Existing examples, supplementary practice, answers, and unfinished exercises ret
 
 Keep this repository open as the project root. Package declarations, imports, and documentation links use the new folder names. Java 17 or later is needed for the existing sealed-class examples.
 
-Current chapter: [English](english/cp05otherclassfeatures/README.md) · [Español](espanol/cp05otrascaracteristicasdelasclases/README.md).
+Current chapter: [English](english/c07javatextbasedaplications/README.md) · [Español](espanol/cp07aplicacionesdetextoenjava/README.md).

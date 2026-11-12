@@ -7,6 +7,11 @@
 3. **Conversión descendente**: abre [PruebaEmpleado2.java](conversiondescendente/PruebaEmpleado2.java). Compara la conversión ascendente, las conversiones explícitas y las comprobaciones con instanceof antes de llamar a métodos de las subclases.
 4. **Arreglos heterogéneos**: abre [ArregloHeterogeneo.java](arregloheterogeneo/ArregloHeterogeneo.java). Guarda distintas subclases de empleado en un arreglo. Los comentarios explican cuatro maneras de inicializarlo. Por ahora, este ejemplo crea el arreglo sin imprimir resultados.
 
+5. **Argumentos polimórficos**. Abre [PruebaAnimal.java](metodosconargumentospolimorficos/PruebaAnimal.java) para pasar aves y mamíferos a un método que recibe un Animal.
+6. **Patrones con instanceof**. Abre [PatronesConInstanceOf.java](patronesconinstanceof/PatronesConInstanceOf.java) para comprobar el tipo y declarar una variable en la misma condición.
+
+Consulta también las [respuestas](Respuestas.java).
+
 ## Tareas de codificación
 
 Las instrucciones están en la carpeta asignacion y el código que has avanzado está en desarrollo. Los paquetes, carpetas, clases, métodos y variables de esta versión están en español.

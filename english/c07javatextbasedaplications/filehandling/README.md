@@ -1,31 +1,31 @@
-# Archivos y directorios con `java.io.File`
+# Files and directories with `java.io.File`
 
-Un objeto `File` representa la ruta de un archivo o directorio. Al escribir `new File("myfile.txt")`, Java guarda una ruta relativa al directorio de trabajo. Con `new File("MyDocs", "myfile.txt")`, Java combina el directorio padre `MyDocs` con el nombre `myfile.txt`. Ambos constructores pueden representar rutas que todavía no existen.
+A `File` object represents the path of a file or directory. With `new File("myfile.txt")`, Java stores a path relative to the working directory. With `new File("MyDocs", "myfile.txt")`, Java combines the MyDocs parent directory with the myfile.txt filename. Both constructors can represent paths that do not exist yet.
 
-## Consultar la ruta y los datos
+## Inspecting paths and file metadata
 
-- `String getPath()` devuelve la ruta del objeto, que puede ser relativa o absoluta.
-- `String getAbsolutePath()` devuelve la ruta absoluta.
-- `String getParent()` devuelve la parte que corresponde al directorio padre, o `null` si la ruta no incluye un padre. Por ejemplo, `getParent()` sobre `new File("myfile.txt")` devuelve `null`.
-- `long lastModified()` devuelve la fecha de modificación en milisegundos desde el 1 de enero de 1970 UTC, o `0` si el archivo no existe o hay un error de E/S.
-- `long length()` devuelve el tamaño de un archivo en bytes. Un archivo vacío o inexistente puede dar `0`. Para un directorio, el valor no está definido.
+- `String getPath()` returns the path stored by the object, which may be relative or absolute.
+- `String getAbsolutePath()` returns the absolute path.
+- `String getParent()` returns the parent portion of the path, or `null` if the path has no parent. For example, calling it on `new File("myfile.txt")` returns `null`.
+- `long lastModified()` returns the last modification time in milliseconds since January 1, 1970 UTC, or `0` if the file does not exist or an I/O error occurs.
+- `long length()` returns the size of a file in bytes. An empty or nonexistent file can yield `0`. For a directory, the value is unspecified.
 
-## Modificar archivos y trabajar con directorios
+## Modifying files and working with directories
 
-- `boolean renameTo(File destination)` intenta renombrar o mover el archivo a la ruta indicada y devuelve si lo logró.
-- `boolean delete()` intenta eliminar el archivo o un directorio vacío y devuelve si lo logró.
-- `boolean mkdir()` intenta crear un directorio y devuelve si lo creó. Si también faltan directorios padres, puedes usar `mkdirs()`.
-- `String[] list()` devuelve los nombres de los archivos y subdirectorios. Devuelve `null` si la ruta no corresponde a un directorio o si hay un error de E/S.
+- `boolean renameTo(File destination)` attempts to rename or move the file to the specified path and reports whether it succeeded.
+- `boolean delete()` attempts to delete the file or empty directory and reports whether it succeeded.
+- `boolean mkdir()` attempts to create a directory and reports whether it succeeded. Use `mkdirs()` to create missing parent directories as well.
+- `String[] list()` returns the names of files and subdirectories, or `null` if the path is not a directory or an I/O error occurs.
 
-## Comprobar una ruta
+## Checking a path
 
-- `boolean exists()` indica si el archivo o directorio existe.
-- `boolean canRead()` y `boolean canWrite()` indican si el programa puede leer o escribir en la ruta existente.
-- `boolean isFile()` indica si la ruta corresponde a un archivo normal.
-- `boolean isDirectory()` indica si la ruta corresponde a un directorio.
-- `boolean isAbsolute()` indica si la ruta es absoluta.
-- `boolean isHidden()` indica si el archivo está oculto según las reglas del sistema operativo.
+- `boolean exists()` reports whether the file or directory exists.
+- `boolean canRead()` and `boolean canWrite()` report whether the program can read or write the existing path.
+- `boolean isFile()` checks whether the path refers to a regular file.
+- `boolean isDirectory()` checks whether the path refers to a directory.
+- `boolean isAbsolute()` checks whether the path is absolute.
+- `boolean isHidden()` checks whether the file is hidden according to the operating system rules.
 
-## Ejemplo
+## Example
 
-`FileExample.java` muestra las rutas relativas y absolutas de ambos ejemplos y comprueba si existen. Si ejecutas el programa desde la raíz del proyecto, esa carpeta será el punto de partida de las dos rutas.
+`FileExample.java` prints the relative and absolute paths for both examples and checks whether they exist. If you run the program from the repository root, both relative paths resolve from that directory.
