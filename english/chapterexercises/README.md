@@ -20,3 +20,5 @@ Use `0001` for read, `0010` for write, and `0100` for execute. Ana has write and
 ## 3. Array practice
 
 [ArrayExercises.java](ArrayExercises.java)
+
+Examples from one to four dimensions · [ArrayDimensions.java](ArrayDimensions.java)

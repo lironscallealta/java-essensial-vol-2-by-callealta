@@ -20,3 +20,5 @@ Usa `0001` para leer, `0010` para escribir y `0100` para ejecutar. Ana tiene per
 ## 3. Práctica con arreglos
 
 [EjerciciosArreglos.java](EjerciciosArreglos.java)
+
+Ejemplos de una a cuatro dimensiones · [PracticaArreglos.java](PracticaArreglos.java)
