@@ -22,3 +22,10 @@ Usa `0001` para leer, `0010` para escribir y `0100` para ejecutar. Ana tiene per
 [EjerciciosArreglos.java](EjerciciosArreglos.java)
 
 Ejemplos de una a cuatro dimensiones · [PracticaArreglos.java](PracticaArreglos.java)
+
+[ConstruccionArreglosMultidimensionales.java](ConstruccionArreglosMultidimensionales.java) reúne la práctica del cine y el avance de las cuatro filas.
+
+## 4. Recursión
+
+- [SaludoRecursivo.java](SaludoRecursivo.java) repite un mensaje personalizable.
+- [CuentaRegresivaRecursiva.java](CuentaRegresivaRecursiva.java) cuenta hacia atrás hasta cero.

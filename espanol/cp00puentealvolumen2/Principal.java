@@ -56,6 +56,13 @@ public class Principal {
         int[] edadesEstudiantes = { 17, 16, 18 };
         double[] notasEstudiantes = { 89.5, 92.0, 85.75 };
 
+        // Más ejemplos de tipos.
+        int miNumero = 5;
+        float miDecimal = 5.99f;
+        char miLetra = 'D';
+        boolean miBooleano = true;
+        String miTexto = "Hola";
+
         // Clases y objetos: usa Estudiante.java de este mismo capítulo.
 
         Estudiante estudiante = new Estudiante("nombre", 15, 4.4);
